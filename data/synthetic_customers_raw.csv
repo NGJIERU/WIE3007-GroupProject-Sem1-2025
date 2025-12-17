@@ -1,0 +1,1201 @@
+customer_id,age,income,total_orders,avg_order_value,days_since_last_purchase,review_text
+1,58,44592,2,375.94,126,Average experience
+2,26,126530,7,344.82,280,Very disappointed
+3,55,85302,3,34.3,112,Average experience
+4,50,108907,2,289.4,333,Not worth the money
+5,44,58893,29,302.85,4,Average experience
+6,62,85392,22,153.38,111,Product is acceptable
+7,24,42156,25,66.42,177,Decent service
+8,34,135791,3,370.27,275,Very disappointed
+9,42,40328,36,160.73,322,Not worth the money
+10,41,105674,13,358.19,24,Average experience
+11,36,40458,15,435.91,195,Delivery was slow
+12,47,113320,24,98.07,182,Poor customer service
+13,60,64993,45,469.59,332,Very disappointed
+14,56,113227,11,276.39,126,Average experience
+15,47,79735,18,494.97,328,Not worth the money
+16,32,119733,21,424.57,29,Average experience
+17,20,135518,21,212.56,34,Average experience
+18,54,144867,46,171.05,336,Product quality was bad
+19,43,145957,42,240.25,136,Average experience
+20,33,127647,36,278.71,300,Product quality was bad
+21,55,82350,24,125.27,71,Decent service
+22,49,41915,49,42.62,57,Fast delivery and great quality
+23,58,50969,44,222.64,33,Highly recommended
+24,42,108104,30,273.97,284,Very disappointed
+25,61,124466,8,347.22,275,Delivery was slow
+26,59,74587,8,160.88,81,Nothing special
+27,18,124646,47,146.43,257,Poor customer service
+28,50,149619,7,437.85,153,Decent service
+29,56,56071,10,199.48,83,Decent service
+30,51,30074,39,175.59,10,Very satisfied with the service
+31,41,145175,20,134.94,124,Decent service
+32,23,41226,47,253.28,36,Will definitely buy again
+33,26,46828,43,248.14,282,Poor customer service
+34,34,99163,39,223.11,109,Decent service
+35,64,120422,13,362.22,205,Delivery was slow
+36,46,147914,34,236.71,127,Average experience
+37,22,74313,2,302.39,118,Decent service
+38,32,30942,5,359.76,31,Average experience
+39,22,148675,3,432.62,37,Decent service
+40,33,66500,43,253.0,277,Poor customer service
+41,64,145655,37,296.58,125,Nothing special
+42,44,54957,7,66.53,221,Delivery was slow
+43,45,83883,30,434.64,28,It was okay
+44,21,82772,47,182.87,56,Fast delivery and great quality
+45,30,54931,35,235.33,217,Poor customer service
+46,35,90637,16,439.75,39,Nothing special
+47,53,42833,4,333.03,277,Very disappointed
+48,23,128771,16,99.83,249,Product quality was bad
+49,31,143331,26,453.17,85,Nothing special
+50,18,81173,17,464.73,233,Delivery was slow
+51,45,121303,47,497.8,285,Product quality was bad
+52,27,54890,19,124.5,30,Decent service
+53,65,101066,4,379.03,30,It was okay
+54,55,92493,33,461.31,272,Poor customer service
+55,21,96562,6,428.64,36,Decent service
+56,22,118501,16,213.81,292,Poor customer service
+57,55,107924,3,317.3,215,Not worth the money
+58,54,98522,21,468.66,105,Product is acceptable
+59,33,64814,26,82.82,331,Delivery was slow
+60,47,71441,49,469.15,5,Highly recommended
+61,57,103792,7,55.17,110,Decent service
+62,34,47361,23,442.81,126,Product is acceptable
+63,36,50676,29,420.2,361,Delivery was slow
+64,57,135788,42,273.89,342,Not worth the money
+65,37,116951,7,470.69,69,Product is acceptable
+66,25,146616,7,376.36,80,Product is acceptable
+67,36,109276,14,364.45,105,Product is acceptable
+68,50,94032,17,454.56,27,It was okay
+69,58,85518,18,41.16,171,Average experience
+70,58,64335,11,375.79,283,Product quality was bad
+71,53,31267,8,56.12,354,Poor customer service
+72,52,34722,24,299.6,76,Nothing special
+73,26,35482,20,195.03,21,Product is acceptable
+74,31,119399,16,340.13,182,Not worth the money
+75,44,111351,48,94.19,122,Average experience
+76,29,145528,27,31.9,171,Nothing special
+77,60,143254,48,409.16,137,Average experience
+78,62,44168,25,438.64,241,Poor customer service
+79,30,137031,30,187.84,117,Average experience
+80,19,116511,13,211.26,143,It was okay
+81,35,76025,42,264.51,348,Not worth the money
+82,39,33617,8,440.98,134,Average experience
+83,55,64795,3,72.03,223,Delivery was slow
+84,64,133078,21,229.47,262,Very disappointed
+85,42,147899,37,111.24,23,Highly recommended
+86,18,98146,35,349.69,344,Poor customer service
+87,41,86531,5,475.46,170,Decent service
+88,38,116951,8,365.48,154,Decent service
+89,37,117410,27,176.57,357,Delivery was slow
+90,53,46683,13,221.81,195,Poor customer service
+91,57,104593,20,214.92,1,Product is acceptable
+92,36,57549,28,397.16,311,Delivery was slow
+93,47,87905,29,344.3,262,Product quality was bad
+94,65,52241,43,60.7,264,Not worth the money
+95,39,42240,49,132.74,159,Average experience
+96,30,49313,2,42.18,244,Not worth the money
+97,22,89692,27,445.35,295,Poor customer service
+98,63,121272,25,257.3,125,Average experience
+99,59,120128,1,448.48,55,Nothing special
+100,32,53053,45,268.62,26,Will definitely buy again
+101,33,141193,8,239.1,238,Not worth the money
+102,53,108047,21,476.02,227,Not worth the money
+103,64,146918,33,224.84,281,Product quality was bad
+104,28,127472,31,236.03,127,Product is acceptable
+105,51,93517,41,134.84,226,Very disappointed
+106,63,67450,16,150.42,164,Decent service
+107,23,48136,10,131.01,356,Poor customer service
+108,63,58043,5,219.14,170,Decent service
+109,47,84496,4,119.28,216,Product quality was bad
+110,55,121163,2,431.23,295,Product quality was bad
+111,48,30772,23,163.33,200,Product quality was bad
+112,52,127978,48,282.14,309,Poor customer service
+113,49,58760,18,229.2,15,Nothing special
+114,39,117670,44,403.11,85,Nothing special
+115,26,111560,35,32.94,202,Not worth the money
+116,54,116900,2,60.29,220,Poor customer service
+117,47,53819,4,144.88,168,Average experience
+118,47,72840,22,385.39,195,Delivery was slow
+119,44,63065,6,245.75,277,Very disappointed
+120,40,59389,42,52.94,334,Very disappointed
+121,19,62411,13,422.83,319,Poor customer service
+122,33,46544,31,341.34,289,Poor customer service
+123,47,121680,17,388.11,86,Decent service
+124,56,128032,46,74.98,84,Product is acceptable
+125,24,105849,2,465.87,295,Product quality was bad
+126,43,123718,13,56.48,354,Poor customer service
+127,24,121382,50,164.76,351,Not worth the money
+128,25,134363,37,395.66,178,Decent service
+129,45,116706,24,53.1,332,Delivery was slow
+130,18,141355,27,414.72,55,Nothing special
+131,41,113307,30,359.51,223,Poor customer service
+132,64,98386,42,149.64,276,Product quality was bad
+133,47,87091,47,304.39,166,Average experience
+134,23,66559,29,137.05,238,Not worth the money
+135,57,117580,25,181.47,254,Delivery was slow
+136,29,93904,14,190.32,133,Product is acceptable
+137,35,145385,39,356.57,142,Decent service
+138,18,97715,13,61.09,209,Product quality was bad
+139,53,129374,16,351.49,331,Product quality was bad
+140,46,133931,2,64.67,114,Nothing special
+141,62,61890,20,338.7,189,Product quality was bad
+142,53,99588,23,224.24,282,Delivery was slow
+143,40,122124,30,150.04,129,Average experience
+144,25,124540,13,171.46,275,Poor customer service
+145,30,58361,48,252.42,302,Not worth the money
+146,56,67093,7,419.66,152,Average experience
+147,41,53519,20,26.79,274,Poor customer service
+148,35,35965,4,285.61,358,Poor customer service
+149,58,143830,49,255.62,7,Will definitely buy again
+150,36,91524,31,231.43,95,It was okay
+151,34,142947,31,74.76,34,Highly recommended
+152,49,39710,37,322.13,28,Fast delivery and great quality
+153,27,136318,37,475.58,44,Fast delivery and great quality
+154,25,103147,49,219.76,306,Not worth the money
+155,32,131671,34,202.58,227,Delivery was slow
+156,55,86207,20,292.94,31,Decent service
+157,65,43006,49,119.74,109,Product is acceptable
+158,60,40641,11,135.14,283,Very disappointed
+159,28,30350,27,236.24,305,Product quality was bad
+160,36,34278,15,158.29,145,Nothing special
+161,22,120096,15,463.48,321,Not worth the money
+162,60,135369,13,224.07,279,Poor customer service
+163,59,49528,18,416.78,37,It was okay
+164,28,133891,20,305.62,292,Delivery was slow
+165,46,46299,30,350.57,359,Product quality was bad
+166,35,95597,35,257.02,42,Will definitely buy again
+167,20,146578,28,372.58,310,Delivery was slow
+168,19,41970,15,481.72,295,Not worth the money
+169,19,130238,44,414.28,296,Very disappointed
+170,29,91669,34,332.72,143,Average experience
+171,55,87132,41,410.84,47,Highly recommended
+172,40,83523,22,174.11,54,Average experience
+173,39,83955,45,257.83,340,Product quality was bad
+174,53,34809,30,62.27,130,Product is acceptable
+175,25,131259,26,435.16,1,Decent service
+176,47,84165,4,110.04,186,Not worth the money
+177,49,111973,29,384.8,105,Product is acceptable
+178,53,47172,19,230.3,358,Product quality was bad
+179,25,33783,41,312.26,123,Average experience
+180,37,102199,1,285.08,48,Average experience
+181,25,90482,8,330.9,79,Nothing special
+182,63,68254,33,358.6,213,Product quality was bad
+183,48,61946,30,284.61,197,Poor customer service
+184,56,96616,48,442.08,36,Excellent shopping experience
+185,44,74548,33,148.24,2,Excellent shopping experience
+186,64,69132,38,298.36,338,Product quality was bad
+187,27,88529,35,252.48,171,Decent service
+188,52,79441,30,467.77,97,Average experience
+189,54,80196,15,430.89,211,Very disappointed
+190,38,127609,31,358.51,196,Product quality was bad
+191,60,133860,42,490.79,254,Very disappointed
+192,26,95836,38,179.36,52,Highly recommended
+193,24,98937,30,27.37,74,Nothing special
+194,59,50232,5,245.36,136,Product is acceptable
+195,57,120794,26,331.92,169,Decent service
+196,42,71505,41,364.98,250,Not worth the money
+197,20,110931,5,132.69,351,Delivery was slow
+198,32,127880,6,228.31,51,It was okay
+199,46,51805,45,163.74,15,Very satisfied with the service
+200,38,134352,4,160.82,192,Product quality was bad
+201,27,62007,34,217.78,350,Poor customer service
+202,28,52946,6,312.56,196,Not worth the money
+203,61,61566,32,458.16,74,Average experience
+204,47,113611,17,240.59,342,Very disappointed
+205,47,148123,19,345.25,81,It was okay
+206,46,75293,38,163.59,218,Delivery was slow
+207,47,140795,20,115.62,197,Product quality was bad
+208,24,61091,25,294.52,295,Delivery was slow
+209,62,68696,2,489.41,338,Product quality was bad
+210,35,31061,37,435.23,26,Will definitely buy again
+211,65,95107,19,392.36,118,Decent service
+212,40,58705,41,111.26,129,Average experience
+213,58,42735,41,330.24,159,Nothing special
+214,20,105965,24,371.53,47,Product is acceptable
+215,38,127973,27,104.31,68,Decent service
+216,41,99579,33,458.47,85,Product is acceptable
+217,48,135708,19,378.35,174,It was okay
+218,47,39869,10,381.99,116,Nothing special
+219,53,77942,6,399.53,8,Product is acceptable
+220,52,46199,30,196.92,345,Delivery was slow
+221,55,79941,41,471.34,56,Fast delivery and great quality
+222,48,33280,40,444.43,288,Delivery was slow
+223,57,59015,42,50.34,238,Delivery was slow
+224,59,83516,8,87.09,20,Product is acceptable
+225,49,45220,7,132.7,276,Poor customer service
+226,42,89459,24,341.83,357,Not worth the money
+227,44,106983,48,368.77,213,Very disappointed
+228,49,110694,27,470.75,144,It was okay
+229,62,78566,14,232.82,121,Product is acceptable
+230,24,119873,24,281.34,331,Delivery was slow
+231,21,82184,18,111.11,63,Nothing special
+232,23,116870,14,328.02,306,Very disappointed
+233,21,133126,22,136.91,65,Decent service
+234,31,38992,49,286.02,301,Poor customer service
+235,32,73064,50,90.83,306,Very disappointed
+236,35,142513,10,494.01,277,Delivery was slow
+237,29,44408,43,435.89,68,It was okay
+238,40,133544,16,302.65,9,Average experience
+239,34,36868,9,376.02,270,Very disappointed
+240,65,38330,31,235.17,186,Not worth the money
+241,55,44293,29,261.84,315,Very disappointed
+242,64,132659,43,270.3,235,Very disappointed
+243,21,92781,26,224.61,56,Nothing special
+244,63,149236,29,55.28,42,Product is acceptable
+245,56,49442,5,80.57,320,Not worth the money
+246,53,123343,21,202.83,306,Not worth the money
+247,36,89469,33,310.6,51,Very satisfied with the service
+248,59,115316,50,284.64,111,Nothing special
+249,46,146403,15,218.63,233,Product quality was bad
+250,44,125631,7,170.02,161,Product is acceptable
+251,41,50006,44,463.03,35,Very satisfied with the service
+252,23,42219,28,66.35,191,Poor customer service
+253,53,37861,38,479.18,288,Delivery was slow
+254,60,46021,27,189.73,341,Product quality was bad
+255,64,36743,19,308.2,181,Very disappointed
+256,54,96507,14,94.27,247,Poor customer service
+257,24,75890,36,196.43,143,Decent service
+258,32,135804,28,425.67,319,Not worth the money
+259,61,114239,36,32.6,337,Delivery was slow
+260,19,53647,18,357.3,159,Product is acceptable
+261,40,30800,12,437.53,290,Product quality was bad
+262,22,48595,48,323.92,16,Very satisfied with the service
+263,65,99531,14,200.57,233,Delivery was slow
+264,28,78503,20,366.37,291,Not worth the money
+265,23,145781,4,94.68,317,Very disappointed
+266,61,40693,18,232.69,218,Product quality was bad
+267,56,87939,27,151.12,263,Very disappointed
+268,40,86349,8,155.96,348,Not worth the money
+269,49,99066,43,168.04,113,Nothing special
+270,56,37180,1,118.12,109,Average experience
+271,34,67938,21,77.59,255,Product quality was bad
+272,29,46932,25,275.64,118,Decent service
+273,53,139229,43,406.98,37,Highly recommended
+274,65,35544,28,29.0,40,Product is acceptable
+275,54,86267,37,214.12,328,Product quality was bad
+276,36,45096,26,30.01,167,Average experience
+277,57,90305,45,461.49,46,Highly recommended
+278,24,61891,28,302.66,269,Very disappointed
+279,43,144101,20,377.99,114,Product is acceptable
+280,28,40011,33,323.95,272,Not worth the money
+281,30,148741,50,187.7,331,Poor customer service
+282,33,43474,10,142.86,89,Decent service
+283,27,129642,49,334.64,91,Nothing special
+284,47,128886,37,384.74,230,Not worth the money
+285,59,113269,40,175.14,322,Delivery was slow
+286,27,87640,5,245.08,324,Delivery was slow
+287,35,107518,4,188.93,38,Product is acceptable
+288,47,89233,3,47.31,147,It was okay
+289,59,143278,6,315.2,260,Product quality was bad
+290,47,106064,36,478.03,22,Highly recommended
+291,54,115437,13,174.33,244,Not worth the money
+292,27,38109,29,69.68,176,It was okay
+293,50,114689,12,38.79,363,Product quality was bad
+294,46,98690,34,312.71,187,Delivery was slow
+295,36,80779,27,391.74,348,Not worth the money
+296,21,133445,41,330.71,34,Excellent shopping experience
+297,24,103133,44,205.55,130,Decent service
+298,27,73694,6,299.71,73,Product is acceptable
+299,37,115990,45,337.82,67,Decent service
+300,63,41104,20,288.28,330,Delivery was slow
+301,26,117833,45,417.9,351,Not worth the money
+302,23,114675,43,223.24,186,Very disappointed
+303,41,70483,12,476.56,175,Nothing special
+304,30,59693,9,94.37,152,It was okay
+305,50,131040,35,420.86,270,Very disappointed
+306,60,74140,50,316.66,306,Product quality was bad
+307,27,51266,12,419.05,320,Poor customer service
+308,64,87366,3,217.21,347,Poor customer service
+309,46,110031,19,381.15,230,Poor customer service
+310,52,61348,20,483.49,241,Poor customer service
+311,41,118907,37,492.53,237,Delivery was slow
+312,42,95916,34,220.96,83,Average experience
+313,56,48140,17,45.05,247,Delivery was slow
+314,53,43446,46,426.03,64,Product is acceptable
+315,23,130023,11,150.94,263,Poor customer service
+316,45,42021,15,412.02,179,It was okay
+317,44,36980,26,260.96,121,Nothing special
+318,23,79140,15,33.53,51,Product is acceptable
+319,27,48035,3,157.7,242,Poor customer service
+320,63,91487,29,315.37,41,It was okay
+321,34,58266,10,283.43,312,Not worth the money
+322,45,44573,50,158.29,155,It was okay
+323,21,61252,27,326.7,319,Product quality was bad
+324,22,44530,32,306.43,9,Will definitely buy again
+325,54,61711,46,88.92,220,Very disappointed
+326,57,76244,16,293.92,96,It was okay
+327,51,77265,5,477.63,279,Not worth the money
+328,50,102633,2,207.42,241,Very disappointed
+329,58,80709,24,141.75,9,Product is acceptable
+330,22,75193,16,371.81,322,Very disappointed
+331,55,126362,49,179.61,23,Excellent shopping experience
+332,52,74374,42,104.04,351,Product quality was bad
+333,62,92722,41,107.49,70,It was okay
+334,63,131736,30,37.75,104,It was okay
+335,30,146102,3,171.49,159,Decent service
+336,43,136876,35,247.23,19,Fast delivery and great quality
+337,36,76789,50,42.95,336,Delivery was slow
+338,35,46315,24,229.74,205,Product quality was bad
+339,42,74438,12,258.18,255,Delivery was slow
+340,51,64959,6,369.0,41,Nothing special
+341,56,137785,12,281.83,165,It was okay
+342,23,72981,43,161.91,229,Not worth the money
+343,63,85851,11,351.09,180,Nothing special
+344,20,125265,23,315.13,223,Delivery was slow
+345,58,133740,4,56.02,327,Product quality was bad
+346,41,97251,48,346.12,16,Fast delivery and great quality
+347,56,118878,29,36.7,35,Average experience
+348,59,78015,24,203.77,291,Very disappointed
+349,56,50111,44,235.96,190,Delivery was slow
+350,46,130019,5,295.48,272,Delivery was slow
+351,43,71207,42,153.77,59,Very satisfied with the service
+352,65,54385,32,268.52,288,Very disappointed
+353,34,131576,17,357.94,110,Decent service
+354,36,120961,32,116.09,70,It was okay
+355,46,52630,46,233.65,45,Excellent shopping experience
+356,60,75537,46,51.17,278,Delivery was slow
+357,37,141589,11,361.67,359,Poor customer service
+358,41,96683,15,78.25,103,Average experience
+359,33,133595,32,32.62,284,Not worth the money
+360,41,91263,36,82.29,45,Very satisfied with the service
+361,37,82187,46,365.06,270,Product quality was bad
+362,44,137916,37,55.4,163,It was okay
+363,46,91057,44,268.33,66,Decent service
+364,58,107042,12,388.54,67,Nothing special
+365,50,149368,4,419.07,266,Poor customer service
+366,37,51581,11,174.88,364,Poor customer service
+367,40,98012,19,426.05,129,Average experience
+368,58,102199,18,80.08,156,Decent service
+369,52,42245,33,327.67,304,Not worth the money
+370,27,52439,43,319.75,310,Delivery was slow
+371,54,35399,2,58.99,329,Not worth the money
+372,34,115344,14,388.14,214,Not worth the money
+373,58,33969,32,446.72,280,Delivery was slow
+374,59,69596,31,137.54,351,Product quality was bad
+375,37,89446,5,350.53,81,Nothing special
+376,44,93471,30,117.93,311,Poor customer service
+377,38,142916,46,173.27,177,Nothing special
+378,26,129701,24,267.19,55,Product is acceptable
+379,33,91141,8,148.39,127,Average experience
+380,24,36632,19,473.78,316,Product quality was bad
+381,33,143417,11,410.47,296,Delivery was slow
+382,30,130023,11,259.17,264,Product quality was bad
+383,49,145222,20,258.74,47,Nothing special
+384,50,89930,16,123.27,181,Very disappointed
+385,21,66877,32,306.81,335,Product quality was bad
+386,36,100345,1,426.64,221,Poor customer service
+387,34,125355,24,386.65,188,Very disappointed
+388,43,36705,37,289.67,186,Not worth the money
+389,36,39637,25,262.04,282,Delivery was slow
+390,57,119181,40,77.03,50,Highly recommended
+391,41,134188,22,287.76,188,Poor customer service
+392,30,108966,33,212.67,21,Very satisfied with the service
+393,20,47961,46,179.86,243,Not worth the money
+394,47,49521,39,448.7,72,Product is acceptable
+395,57,71750,11,208.62,316,Delivery was slow
+396,55,74089,33,417.58,273,Product quality was bad
+397,63,103783,20,247.95,9,Product is acceptable
+398,39,118317,8,490.35,299,Delivery was slow
+399,64,144307,45,322.05,306,Product quality was bad
+400,34,115929,50,297.67,117,It was okay
+401,55,92973,11,271.63,318,Product quality was bad
+402,27,137696,44,136.25,294,Very disappointed
+403,30,32482,29,170.57,78,Nothing special
+404,62,56724,27,260.87,314,Product quality was bad
+405,65,125342,4,358.77,266,Poor customer service
+406,53,72604,43,249.62,193,Delivery was slow
+407,29,90249,35,184.32,182,Delivery was slow
+408,57,93462,13,479.52,143,Decent service
+409,37,59473,20,390.16,361,Poor customer service
+410,62,122404,32,172.18,179,Decent service
+411,64,65842,19,78.5,347,Not worth the money
+412,42,147409,26,412.82,75,Product is acceptable
+413,20,67700,46,57.93,227,Delivery was slow
+414,65,92793,14,116.99,276,Delivery was slow
+415,53,121248,18,85.89,316,Not worth the money
+416,33,61779,4,341.52,272,Poor customer service
+417,58,60518,4,68.1,170,Nothing special
+418,24,119285,50,85.98,282,Poor customer service
+419,44,115575,31,249.18,103,Product is acceptable
+420,38,67409,42,48.4,46,Will definitely buy again
+421,32,100143,48,367.1,20,Fast delivery and great quality
+422,44,145637,12,468.28,19,Nothing special
+423,49,54420,48,481.82,149,It was okay
+424,18,69110,37,309.34,172,Product is acceptable
+425,47,114058,35,271.67,69,Decent service
+426,47,65761,13,408.23,170,Average experience
+427,64,90150,42,143.49,96,It was okay
+428,65,74185,19,292.53,99,Average experience
+429,57,142216,41,450.58,219,Not worth the money
+430,38,41368,26,341.24,95,Average experience
+431,48,72415,16,23.28,197,Poor customer service
+432,46,128796,18,477.94,155,Decent service
+433,64,105088,1,145.55,185,Poor customer service
+434,21,117528,8,243.39,82,Nothing special
+435,61,95866,46,389.52,354,Very disappointed
+436,58,68671,24,315.02,113,Average experience
+437,48,50078,30,378.91,311,Delivery was slow
+438,44,122004,36,458.14,276,Poor customer service
+439,33,119173,49,305.99,42,Will definitely buy again
+440,46,99228,46,193.66,289,Very disappointed
+441,21,138629,36,453.39,104,Decent service
+442,52,49641,11,177.5,267,Product quality was bad
+443,25,119167,14,364.12,251,Very disappointed
+444,50,88390,4,237.65,263,Product quality was bad
+445,47,103912,4,288.22,345,Delivery was slow
+446,64,32853,26,142.14,2,Average experience
+447,55,39572,3,223.37,359,Very disappointed
+448,52,37897,5,493.35,242,Very disappointed
+449,36,83591,12,389.11,329,Product quality was bad
+450,41,146828,25,235.3,194,Product quality was bad
+451,23,119486,43,439.79,69,Product is acceptable
+452,25,53392,35,208.67,66,Average experience
+453,18,129113,2,489.68,238,Not worth the money
+454,45,99721,25,415.21,127,Nothing special
+455,40,50332,18,110.47,58,It was okay
+456,60,84950,40,387.71,9,Fast delivery and great quality
+457,31,38819,7,305.09,229,Not worth the money
+458,61,122181,4,137.47,23,Nothing special
+459,46,60715,35,124.29,29,Fast delivery and great quality
+460,50,67914,15,411.58,295,Delivery was slow
+461,54,108370,50,342.82,165,Average experience
+462,37,144852,10,493.13,267,Poor customer service
+463,44,69387,18,49.26,303,Poor customer service
+464,58,118965,28,286.81,25,Product is acceptable
+465,59,117994,25,397.19,164,Nothing special
+466,44,49558,20,200.7,276,Product quality was bad
+467,33,141324,15,164.35,363,Poor customer service
+468,47,149896,4,289.95,214,Not worth the money
+469,51,47575,25,136.57,105,Product is acceptable
+470,59,40363,29,426.62,48,Decent service
+471,64,138711,13,44.74,194,Not worth the money
+472,56,35183,5,110.32,301,Not worth the money
+473,31,92835,14,437.35,171,Product is acceptable
+474,18,57762,13,481.8,61,Nothing special
+475,33,121177,39,357.81,204,Poor customer service
+476,53,72154,50,155.87,239,Not worth the money
+477,59,77088,20,145.55,263,Product quality was bad
+478,47,42924,47,245.36,164,Average experience
+479,41,71015,27,41.94,114,Average experience
+480,19,64180,36,468.68,297,Product quality was bad
+481,36,49976,13,178.34,195,Not worth the money
+482,33,95444,36,334.21,351,Delivery was slow
+483,34,130055,32,483.92,329,Product quality was bad
+484,47,52050,47,401.59,87,Average experience
+485,64,101636,32,108.34,278,Very disappointed
+486,51,34433,5,473.69,343,Very disappointed
+487,18,84053,9,424.42,119,It was okay
+488,63,49795,1,124.99,234,Delivery was slow
+489,21,110980,41,340.04,316,Product quality was bad
+490,60,93944,2,23.17,283,Product quality was bad
+491,18,32192,34,366.65,275,Delivery was slow
+492,19,95826,45,343.54,92,It was okay
+493,24,98732,10,135.67,318,Not worth the money
+494,34,136851,23,148.32,204,Very disappointed
+495,41,83218,30,291.2,357,Poor customer service
+496,37,119658,6,333.79,333,Very disappointed
+497,23,83120,25,201.04,244,Very disappointed
+498,58,31238,45,102.26,256,Product quality was bad
+499,59,132809,22,291.61,49,Decent service
+500,20,60115,14,452.61,355,Not worth the money
+501,48,65532,3,463.6,351,Delivery was slow
+502,52,103860,43,35.79,162,It was okay
+503,31,106943,10,381.08,365,Product quality was bad
+504,22,69226,11,290.7,291,Product quality was bad
+505,61,147509,35,179.23,72,It was okay
+506,50,127708,23,45.77,224,Poor customer service
+507,22,74642,39,389.12,305,Product quality was bad
+508,38,33883,41,151.2,231,Product quality was bad
+509,32,76636,36,471.75,222,Poor customer service
+510,61,106791,43,202.43,317,Delivery was slow
+511,33,123468,5,59.38,79,Nothing special
+512,63,132746,41,94.05,200,Delivery was slow
+513,41,43965,6,22.49,158,Nothing special
+514,41,129791,18,69.07,45,Average experience
+515,45,88830,36,286.28,209,Very disappointed
+516,19,41746,23,286.03,306,Not worth the money
+517,38,143209,25,25.92,212,Product quality was bad
+518,23,125006,36,454.5,125,Decent service
+519,51,52227,44,202.75,72,Product is acceptable
+520,37,65180,32,90.05,86,Nothing special
+521,35,85194,20,252.43,40,Product is acceptable
+522,34,62321,47,320.02,305,Not worth the money
+523,30,90012,7,85.03,4,Nothing special
+524,39,140311,40,202.35,169,Nothing special
+525,39,86441,42,487.63,70,Product is acceptable
+526,38,109064,45,116.41,161,Average experience
+527,43,71830,19,372.74,325,Product quality was bad
+528,54,132494,16,176.43,144,Nothing special
+529,41,44927,37,115.9,280,Poor customer service
+530,61,130613,36,32.92,237,Poor customer service
+531,46,134554,19,419.02,36,Nothing special
+532,61,95444,9,324.0,124,Product is acceptable
+533,60,50203,46,223.1,194,Very disappointed
+534,46,108372,31,299.48,274,Not worth the money
+535,62,84827,35,37.65,185,Not worth the money
+536,56,113647,6,72.5,128,Product is acceptable
+537,28,114803,40,41.26,331,Product quality was bad
+538,39,134363,28,70.85,51,Product is acceptable
+539,32,96935,48,269.02,298,Not worth the money
+540,32,88429,24,207.74,348,Not worth the money
+541,62,95597,10,185.58,13,Nothing special
+542,24,68722,27,461.86,44,It was okay
+543,64,48569,23,169.71,234,Poor customer service
+544,51,93298,23,248.56,225,Product quality was bad
+545,38,38804,20,41.45,364,Very disappointed
+546,19,141303,22,331.03,347,Poor customer service
+547,65,61970,34,103.74,82,Product is acceptable
+548,53,85885,30,131.29,208,Poor customer service
+549,29,113948,43,227.42,15,Will definitely buy again
+550,30,88926,38,226.19,3,Fast delivery and great quality
+551,31,66483,49,357.8,33,Will definitely buy again
+552,24,134792,35,109.74,167,Average experience
+553,47,44936,17,341.94,251,Not worth the money
+554,58,71078,39,206.55,201,Not worth the money
+555,25,75603,23,425.85,317,Poor customer service
+556,61,122535,20,460.97,303,Very disappointed
+557,61,47556,21,76.57,157,It was okay
+558,29,78929,45,87.85,199,Product quality was bad
+559,56,48070,37,204.18,96,Nothing special
+560,58,100435,45,461.2,89,Decent service
+561,28,94178,19,87.34,162,Nothing special
+562,57,37026,23,476.88,249,Poor customer service
+563,30,136851,25,482.64,259,Product quality was bad
+564,44,119744,32,219.5,228,Product quality was bad
+565,28,40835,37,34.81,113,Product is acceptable
+566,20,66025,15,278.05,87,Nothing special
+567,54,127323,50,387.64,282,Not worth the money
+568,25,105066,8,148.59,279,Delivery was slow
+569,52,137821,49,39.97,226,Not worth the money
+570,31,85725,7,373.27,335,Poor customer service
+571,37,144663,3,235.87,179,It was okay
+572,46,143415,8,392.3,122,Average experience
+573,65,107060,45,188.3,364,Not worth the money
+574,58,86120,11,315.75,106,Average experience
+575,21,104720,23,275.49,306,Not worth the money
+576,28,72421,46,160.46,294,Delivery was slow
+577,50,147985,44,411.29,70,Nothing special
+578,21,66349,42,80.91,68,Average experience
+579,27,123243,21,417.67,347,Product quality was bad
+580,49,48634,37,323.55,322,Product quality was bad
+581,42,89243,5,324.14,48,Nothing special
+582,50,128278,18,353.46,189,Product quality was bad
+583,49,72898,38,21.19,48,Highly recommended
+584,58,117050,45,191.95,33,Will definitely buy again
+585,43,58551,28,415.93,254,Delivery was slow
+586,38,138572,19,182.12,296,Poor customer service
+587,54,141728,32,398.39,350,Very disappointed
+588,20,43051,41,396.27,236,Very disappointed
+589,25,142414,11,231.82,1,Nothing special
+590,30,120255,9,443.43,155,Average experience
+591,35,42234,42,193.01,43,Excellent shopping experience
+592,60,148462,42,99.45,203,Delivery was slow
+593,64,121677,49,132.39,336,Very disappointed
+594,63,42475,1,122.44,40,Average experience
+595,55,59647,34,346.39,5,Very satisfied with the service
+596,62,75032,8,494.31,217,Poor customer service
+597,48,39283,15,203.87,53,It was okay
+598,38,78177,20,85.82,69,Average experience
+599,22,99534,37,24.07,333,Poor customer service
+600,46,76030,47,122.27,78,Nothing special
+601,57,119989,29,432.78,45,It was okay
+602,26,128624,8,303.0,197,Delivery was slow
+603,45,71222,9,138.94,331,Very disappointed
+604,33,102534,39,308.0,312,Delivery was slow
+605,62,33515,43,440.4,106,Decent service
+606,56,96784,13,378.96,152,It was okay
+607,33,94865,25,74.12,256,Not worth the money
+608,22,99243,1,493.7,163,Average experience
+609,42,142828,37,222.01,280,Poor customer service
+610,48,130973,5,28.01,35,It was okay
+611,34,58277,3,462.84,204,Not worth the money
+612,36,112388,46,260.5,213,Product quality was bad
+613,62,82727,6,327.46,276,Not worth the money
+614,27,66368,6,168.76,262,Poor customer service
+615,27,100305,21,207.55,325,Very disappointed
+616,37,121576,28,370.38,123,It was okay
+617,33,41300,28,75.67,314,Not worth the money
+618,21,70539,43,376.01,90,It was okay
+619,18,122785,9,356.72,84,Nothing special
+620,40,98551,34,395.83,133,Average experience
+621,41,46637,48,394.94,138,It was okay
+622,19,73910,28,150.55,33,Product is acceptable
+623,63,105582,41,56.99,234,Not worth the money
+624,41,37266,32,432.49,86,Product is acceptable
+625,28,63438,50,69.39,294,Very disappointed
+626,32,127095,33,21.23,7,Fast delivery and great quality
+627,20,91835,24,203.83,77,Average experience
+628,20,102465,46,375.52,215,Poor customer service
+629,38,62540,27,459.61,164,Product is acceptable
+630,22,104912,24,77.31,345,Very disappointed
+631,29,59253,34,491.08,206,Very disappointed
+632,47,143512,19,391.29,160,Product is acceptable
+633,23,102494,30,23.83,103,Product is acceptable
+634,54,132826,20,375.0,125,Nothing special
+635,41,107554,32,498.94,101,Decent service
+636,33,49735,1,467.55,13,Average experience
+637,52,75406,41,423.0,5,Excellent shopping experience
+638,18,129474,43,200.61,158,It was okay
+639,31,99443,16,221.51,31,Average experience
+640,63,66677,6,41.07,119,Decent service
+641,44,121861,24,240.06,44,Decent service
+642,24,96247,9,325.86,202,Very disappointed
+643,55,104425,4,228.79,67,Average experience
+644,36,64208,21,464.5,202,Delivery was slow
+645,38,89343,18,132.13,104,Average experience
+646,55,44283,10,70.72,231,Product quality was bad
+647,38,83282,8,277.24,107,Nothing special
+648,37,90731,17,429.19,47,Average experience
+649,61,69874,46,354.5,21,Fast delivery and great quality
+650,38,49441,6,361.36,183,Product quality was bad
+651,50,36416,44,163.44,90,It was okay
+652,43,142014,29,286.86,282,Poor customer service
+653,24,90560,7,405.87,72,It was okay
+654,18,38083,50,491.63,67,Average experience
+655,43,78790,44,322.54,331,Very disappointed
+656,55,106823,17,460.37,39,It was okay
+657,22,55919,42,232.85,66,It was okay
+658,39,46059,3,472.29,26,Average experience
+659,54,86774,47,209.6,16,Highly recommended
+660,61,85923,12,189.89,96,Product is acceptable
+661,35,88459,10,36.63,318,Not worth the money
+662,33,114840,19,259.47,282,Product quality was bad
+663,21,41497,18,203.85,215,Poor customer service
+664,59,145953,34,139.59,279,Very disappointed
+665,42,132487,46,192.37,279,Product quality was bad
+666,40,149626,37,261.15,199,Delivery was slow
+667,29,33416,21,306.62,16,Product is acceptable
+668,21,135991,31,274.13,300,Poor customer service
+669,28,43124,16,335.29,137,Decent service
+670,65,37328,49,498.27,113,Decent service
+671,42,76504,12,104.53,304,Delivery was slow
+672,65,121439,23,458.71,15,Product is acceptable
+673,54,103873,10,290.29,97,Nothing special
+674,52,70508,12,255.41,47,It was okay
+675,32,108861,15,29.57,245,Very disappointed
+676,39,110495,13,407.09,175,Average experience
+677,38,37806,2,90.9,361,Poor customer service
+678,25,140949,34,433.12,38,Excellent shopping experience
+679,63,116787,26,301.29,173,Product is acceptable
+680,38,47884,11,371.53,224,Product quality was bad
+681,59,71586,12,359.45,288,Not worth the money
+682,40,59260,43,302.7,90,Nothing special
+683,37,126206,45,161.37,91,It was okay
+684,62,105082,26,428.36,291,Very disappointed
+685,29,108956,21,462.1,314,Poor customer service
+686,58,104127,7,469.61,73,Product is acceptable
+687,65,40198,16,186.47,164,Average experience
+688,58,146040,6,414.4,344,Delivery was slow
+689,46,31493,17,120.65,355,Very disappointed
+690,40,63640,7,365.8,25,Nothing special
+691,46,126021,27,485.17,212,Product quality was bad
+692,42,76036,35,200.17,246,Not worth the money
+693,59,129384,44,128.28,232,Very disappointed
+694,20,68654,2,172.98,54,It was okay
+695,39,52296,25,97.23,39,Decent service
+696,23,74295,39,492.93,248,Very disappointed
+697,45,115673,11,311.51,223,Poor customer service
+698,21,43272,22,118.66,98,Nothing special
+699,62,102628,47,464.28,277,Delivery was slow
+700,60,66899,20,134.02,26,Nothing special
+701,54,102045,32,93.72,185,Very disappointed
+702,45,41485,19,415.47,321,Not worth the money
+703,48,56171,7,32.35,88,Product is acceptable
+704,23,92071,8,168.01,204,Product quality was bad
+705,49,147293,43,147.2,329,Not worth the money
+706,42,54232,24,445.04,190,Poor customer service
+707,46,35848,17,231.08,135,Average experience
+708,35,103956,4,92.54,357,Very disappointed
+709,23,117574,23,407.93,212,Not worth the money
+710,32,102561,4,423.58,268,Product quality was bad
+711,52,120055,31,294.9,121,Nothing special
+712,37,40348,26,453.33,18,Decent service
+713,54,148024,34,404.22,347,Not worth the money
+714,27,45765,49,235.54,86,Average experience
+715,30,46539,3,223.22,350,Product quality was bad
+716,30,137815,41,90.98,305,Delivery was slow
+717,38,149380,47,458.8,35,Very satisfied with the service
+718,42,102923,26,284.99,142,Decent service
+719,47,144486,1,397.54,320,Not worth the money
+720,51,132457,27,74.01,77,Average experience
+721,54,107061,38,384.02,52,Very satisfied with the service
+722,54,132176,7,397.16,275,Delivery was slow
+723,44,64620,25,334.3,293,Not worth the money
+724,48,34910,12,152.2,74,Decent service
+725,56,119235,45,212.83,203,Delivery was slow
+726,62,61139,4,377.96,138,Product is acceptable
+727,19,74284,20,169.26,252,Very disappointed
+728,32,47614,20,487.63,227,Delivery was slow
+729,35,125525,27,310.39,46,Average experience
+730,46,57707,27,375.65,265,Delivery was slow
+731,21,97537,11,51.5,364,Not worth the money
+732,43,47779,50,428.62,292,Very disappointed
+733,29,55265,13,421.75,128,It was okay
+734,47,36626,24,358.22,141,Product is acceptable
+735,47,96207,26,325.0,64,It was okay
+736,33,78819,32,305.14,91,Nothing special
+737,55,102264,23,185.24,133,It was okay
+738,36,33597,25,43.83,293,Poor customer service
+739,32,114853,15,345.29,138,Nothing special
+740,50,32628,50,484.23,350,Very disappointed
+741,48,149474,9,330.74,308,Very disappointed
+742,32,63081,39,406.44,157,Product is acceptable
+743,45,147372,25,428.76,236,Delivery was slow
+744,31,91171,20,345.05,320,Product quality was bad
+745,55,43410,1,265.53,340,Delivery was slow
+746,53,114848,39,312.34,153,It was okay
+747,48,38367,22,494.41,328,Delivery was slow
+748,35,64229,42,361.33,334,Delivery was slow
+749,30,49651,34,387.43,30,Will definitely buy again
+750,43,116577,21,346.76,14,Nothing special
+751,36,64003,27,214.21,19,Decent service
+752,63,104978,13,184.72,114,Decent service
+753,58,132878,31,455.13,344,Delivery was slow
+754,50,69347,11,423.51,286,Poor customer service
+755,36,42793,31,81.41,133,Decent service
+756,29,119091,22,334.13,114,Product is acceptable
+757,32,127545,20,221.83,170,Product is acceptable
+758,34,106751,19,242.61,61,Nothing special
+759,21,143559,41,300.12,318,Very disappointed
+760,48,146578,13,260.23,349,Product quality was bad
+761,51,69106,27,45.95,78,Average experience
+762,30,74914,27,493.85,235,Poor customer service
+763,38,143035,46,106.57,42,Highly recommended
+764,39,112710,12,170.44,30,It was okay
+765,46,65851,14,385.37,87,Decent service
+766,28,94169,49,394.28,67,Decent service
+767,45,113032,28,213.63,245,Product quality was bad
+768,18,34944,35,115.72,192,Very disappointed
+769,38,129201,34,111.48,347,Very disappointed
+770,58,126154,16,128.61,177,Product is acceptable
+771,26,43462,25,261.6,157,Average experience
+772,22,137982,3,163.14,149,Nothing special
+773,64,98195,39,271.58,223,Poor customer service
+774,39,148146,32,192.44,97,Average experience
+775,43,32506,15,127.67,68,Average experience
+776,64,32872,38,262.22,64,Product is acceptable
+777,63,115267,3,200.09,328,Delivery was slow
+778,52,111675,4,305.08,25,It was okay
+779,59,139591,2,43.15,60,Nothing special
+780,46,79840,8,282.7,243,Poor customer service
+781,31,121120,44,322.55,155,Nothing special
+782,60,43235,43,269.75,319,Not worth the money
+783,62,47978,27,418.71,54,Decent service
+784,64,110962,8,155.7,55,Nothing special
+785,30,109823,13,393.42,268,Poor customer service
+786,40,122200,27,161.77,21,Decent service
+787,49,149322,14,350.34,247,Delivery was slow
+788,33,30358,1,342.38,57,Decent service
+789,60,94763,10,475.73,262,Very disappointed
+790,64,124840,7,454.29,330,Poor customer service
+791,47,68800,17,242.85,52,Average experience
+792,20,141705,19,192.9,347,Delivery was slow
+793,45,126801,8,65.6,24,It was okay
+794,26,116947,42,101.85,184,Product quality was bad
+795,57,65167,47,64.62,176,Average experience
+796,25,82530,26,481.91,140,Nothing special
+797,62,141499,31,403.95,333,Poor customer service
+798,25,47368,45,368.68,82,It was okay
+799,44,149436,38,251.68,292,Product quality was bad
+800,29,110127,25,394.0,314,Very disappointed
+801,61,145336,47,487.25,67,Nothing special
+802,49,44802,27,231.53,33,Product is acceptable
+803,59,71187,1,358.19,348,Not worth the money
+804,65,105582,47,291.21,343,Delivery was slow
+805,51,98564,45,356.28,49,Highly recommended
+806,60,125243,16,251.33,340,Product quality was bad
+807,27,139973,36,448.19,314,Very disappointed
+808,18,114331,11,262.67,241,Product quality was bad
+809,28,39812,49,255.99,124,Product is acceptable
+810,35,36599,33,126.9,330,Product quality was bad
+811,43,137099,16,57.84,228,Not worth the money
+812,46,41536,32,234.59,61,Nothing special
+813,65,115638,2,69.27,212,Very disappointed
+814,53,101971,1,416.44,310,Not worth the money
+815,58,69924,33,289.92,336,Product quality was bad
+816,39,77624,4,411.96,233,Delivery was slow
+817,53,130586,40,307.98,337,Delivery was slow
+818,63,89314,8,66.77,338,Poor customer service
+819,18,74742,23,418.34,150,Decent service
+820,51,79006,45,71.03,85,Nothing special
+821,26,137720,46,376.41,210,Very disappointed
+822,34,110065,13,110.02,202,Poor customer service
+823,47,138075,13,364.06,56,Nothing special
+824,20,113000,44,302.63,231,Product quality was bad
+825,60,107242,33,84.63,256,Very disappointed
+826,51,126497,4,285.55,222,Not worth the money
+827,48,96628,50,462.16,91,Decent service
+828,29,125747,9,69.71,337,Not worth the money
+829,56,145696,21,261.97,197,Product quality was bad
+830,56,120769,49,139.15,204,Delivery was slow
+831,36,89355,9,86.33,309,Not worth the money
+832,37,140503,45,282.95,161,Decent service
+833,58,58487,13,120.66,149,Product is acceptable
+834,61,47389,46,332.04,92,Decent service
+835,52,121004,41,174.74,60,Product is acceptable
+836,53,92963,38,293.91,342,Product quality was bad
+837,61,128024,35,157.25,217,Very disappointed
+838,51,43955,2,202.82,28,It was okay
+839,30,64993,49,397.06,147,Product is acceptable
+840,27,140019,4,351.49,152,Average experience
+841,52,34234,23,410.73,53,Decent service
+842,61,126926,36,435.12,332,Not worth the money
+843,42,61142,33,396.47,357,Delivery was slow
+844,62,117096,4,464.71,199,Product quality was bad
+845,61,70980,36,45.83,129,Average experience
+846,57,143881,50,433.01,227,Poor customer service
+847,58,122357,46,330.86,302,Not worth the money
+848,65,109087,13,392.55,100,Product is acceptable
+849,46,53255,44,55.75,89,Decent service
+850,25,79440,3,225.68,285,Delivery was slow
+851,26,51093,38,426.09,3,Excellent shopping experience
+852,47,123020,10,39.17,166,Decent service
+853,21,131405,41,315.49,339,Delivery was slow
+854,49,133534,37,284.08,38,Excellent shopping experience
+855,51,58830,12,269.89,259,Poor customer service
+856,44,101182,35,213.64,179,Average experience
+857,31,116944,22,178.91,151,Average experience
+858,57,99533,31,498.38,333,Very disappointed
+859,25,117679,23,233.92,329,Not worth the money
+860,57,61958,3,347.62,165,Nothing special
+861,25,80577,17,279.31,145,It was okay
+862,51,137755,50,199.98,261,Product quality was bad
+863,49,35747,19,451.18,99,Product is acceptable
+864,50,40793,7,100.35,276,Not worth the money
+865,18,112173,5,121.18,323,Poor customer service
+866,61,85601,7,118.68,360,Product quality was bad
+867,59,137053,5,378.51,79,It was okay
+868,47,123961,22,38.19,38,It was okay
+869,29,134099,17,287.88,295,Poor customer service
+870,34,83429,25,236.54,208,Product quality was bad
+871,38,32213,25,343.18,274,Very disappointed
+872,59,124409,40,50.35,300,Very disappointed
+873,62,141181,5,191.7,258,Very disappointed
+874,36,133139,44,164.65,45,Excellent shopping experience
+875,46,79992,26,414.62,16,Nothing special
+876,28,99922,15,85.46,201,Not worth the money
+877,36,113105,10,163.07,332,Delivery was slow
+878,18,102551,36,87.86,22,Very satisfied with the service
+879,54,108204,26,277.83,44,Product is acceptable
+880,31,128080,48,453.7,177,Average experience
+881,44,148702,42,428.7,73,Average experience
+882,29,58939,40,420.68,100,It was okay
+883,29,117946,37,429.08,282,Product quality was bad
+884,59,102045,5,159.51,35,Product is acceptable
+885,24,55875,47,298.69,170,Product is acceptable
+886,26,117988,42,132.58,146,Decent service
+887,22,147980,13,172.54,231,Delivery was slow
+888,57,116431,20,352.86,79,Decent service
+889,54,77774,21,480.16,87,It was okay
+890,38,62266,15,361.86,329,Product quality was bad
+891,35,140114,24,84.47,170,Nothing special
+892,47,88373,23,391.89,250,Not worth the money
+893,24,53038,42,311.18,144,Average experience
+894,52,55746,17,372.1,321,Very disappointed
+895,64,39882,2,427.8,324,Very disappointed
+896,55,105877,26,389.22,109,It was okay
+897,53,64159,35,449.11,277,Product quality was bad
+898,59,131606,10,195.59,115,Decent service
+899,64,142350,19,84.26,257,Not worth the money
+900,23,82007,24,261.04,340,Poor customer service
+901,57,119674,11,383.46,72,Nothing special
+902,28,53480,37,475.38,338,Poor customer service
+903,65,125945,31,470.8,21,Fast delivery and great quality
+904,49,60375,5,146.89,120,It was okay
+905,60,57102,34,455.71,185,Product quality was bad
+906,48,89591,3,39.15,333,Delivery was slow
+907,24,122240,34,324.11,141,Product is acceptable
+908,55,101349,37,103.45,335,Product quality was bad
+909,41,107028,42,451.15,40,Will definitely buy again
+910,34,79326,15,267.86,181,Delivery was slow
+911,49,133895,31,445.84,4,Will definitely buy again
+912,26,87658,11,130.4,264,Delivery was slow
+913,31,49692,12,95.53,309,Very disappointed
+914,60,60191,27,409.36,59,Nothing special
+915,61,92759,31,121.14,83,Nothing special
+916,19,61938,3,81.38,304,Poor customer service
+917,26,112515,33,38.81,294,Poor customer service
+918,21,51802,17,462.77,265,Product quality was bad
+919,56,103872,41,28.94,339,Delivery was slow
+920,23,58389,29,311.13,242,Product quality was bad
+921,28,58752,27,308.4,299,Poor customer service
+922,57,116461,33,146.97,352,Delivery was slow
+923,47,108188,38,53.04,194,Product quality was bad
+924,26,44230,2,117.13,259,Product quality was bad
+925,27,109365,7,105.16,315,Not worth the money
+926,20,145048,35,261.6,61,It was okay
+927,48,116427,9,452.95,277,Very disappointed
+928,61,115096,28,270.58,190,Very disappointed
+929,62,99444,28,130.15,247,Product quality was bad
+930,40,107207,48,455.77,357,Not worth the money
+931,24,85769,9,142.17,120,It was okay
+932,36,108419,35,216.15,97,It was okay
+933,63,127471,1,297.43,61,Decent service
+934,18,79155,42,118.6,162,Nothing special
+935,41,43970,10,224.51,300,Delivery was slow
+936,34,142063,35,223.31,188,Not worth the money
+937,35,119208,26,382.39,212,Not worth the money
+938,53,93238,12,197.7,285,Product quality was bad
+939,34,70193,37,185.29,362,Product quality was bad
+940,65,48096,43,77.16,118,Nothing special
+941,62,51206,7,122.94,206,Delivery was slow
+942,53,110481,45,348.59,27,Fast delivery and great quality
+943,42,113345,1,406.1,75,Nothing special
+944,56,87065,6,50.76,114,Product is acceptable
+945,23,109826,3,367.76,206,Not worth the money
+946,59,98289,19,361.57,306,Very disappointed
+947,29,113924,32,230.71,104,Decent service
+948,36,55525,3,396.3,262,Not worth the money
+949,62,60365,40,101.35,19,Excellent shopping experience
+950,33,115854,1,488.31,45,Product is acceptable
+951,43,76285,43,209.67,301,Poor customer service
+952,51,32014,48,357.74,47,Will definitely buy again
+953,36,125176,36,459.2,179,Product is acceptable
+954,35,59661,39,482.27,233,Product quality was bad
+955,54,30609,17,104.02,260,Very disappointed
+956,53,39487,33,161.24,60,Decent service
+957,34,144833,35,410.31,295,Delivery was slow
+958,62,88034,25,290.32,125,Product is acceptable
+959,47,119337,30,450.33,15,Nothing special
+960,25,63792,5,203.68,113,Average experience
+961,38,84057,23,267.92,5,Product is acceptable
+962,33,67655,6,211.49,176,It was okay
+963,53,53394,31,170.66,112,Decent service
+964,35,53957,48,347.89,98,Nothing special
+965,65,56170,16,373.01,136,Average experience
+966,32,56577,16,421.44,183,Poor customer service
+967,24,45712,6,344.39,340,Product quality was bad
+968,57,30868,49,431.4,22,Highly recommended
+969,41,111352,21,256.32,295,Delivery was slow
+970,49,53969,49,459.68,144,Nothing special
+971,32,128326,37,81.56,270,Product quality was bad
+972,48,100879,3,261.19,202,Poor customer service
+973,47,45776,45,268.74,162,It was okay
+974,18,118356,14,202.13,52,Product is acceptable
+975,41,110318,17,109.83,135,Average experience
+976,35,91780,40,184.69,95,Nothing special
+977,45,57594,27,356.34,191,Delivery was slow
+978,43,66651,29,106.35,68,Decent service
+979,61,59958,7,365.99,121,Decent service
+980,45,142238,25,114.11,77,Nothing special
+981,18,53148,27,259.81,323,Not worth the money
+982,52,124445,21,396.96,154,Product is acceptable
+983,53,142525,37,42.9,51,Fast delivery and great quality
+984,21,58241,17,248.74,323,Very disappointed
+985,46,127595,22,144.69,185,Not worth the money
+986,53,136170,17,185.19,211,Very disappointed
+987,40,143687,44,482.3,102,Decent service
+988,54,115179,42,278.45,146,Product is acceptable
+989,38,118236,33,254.0,229,Very disappointed
+990,42,110434,19,242.6,75,Average experience
+991,58,135869,22,222.47,314,Not worth the money
+992,43,141267,5,57.97,176,Average experience
+993,38,71533,42,159.85,137,Decent service
+994,59,81833,18,446.09,186,Not worth the money
+995,51,89020,27,100.31,12,Average experience
+996,64,60753,43,140.79,359,Very disappointed
+997,31,51877,26,69.44,33,Nothing special
+998,53,37055,2,390.05,269,Very disappointed
+999,24,64400,40,94.53,336,Product quality was bad
+1000,37,60062,16,374.04,227,Poor customer service
+1001,26,99041,11,33.71,340,Delivery was slow
+1002,38,143277,31,244.25,277,Delivery was slow
+1003,53,88306,9,485.38,358,Not worth the money
+1004,29,107441,39,239.14,326,Not worth the money
+1005,45,98610,41,326.97,159,Product is acceptable
+1006,48,100735,15,406.26,227,Delivery was slow
+1007,41,84028,17,94.74,6,It was okay
+1008,51,136873,49,427.01,177,Product is acceptable
+1009,48,100136,1,350.13,252,Product quality was bad
+1010,37,31197,50,226.61,150,Decent service
+1011,32,134433,1,283.14,97,Nothing special
+1012,53,87292,26,139.95,331,Product quality was bad
+1013,42,58913,17,58.02,321,Poor customer service
+1014,51,130209,40,407.64,351,Delivery was slow
+1015,36,114994,48,275.33,138,Nothing special
+1016,30,141867,5,107.56,149,It was okay
+1017,58,89682,40,237.33,359,Not worth the money
+1018,49,54613,21,29.31,26,Decent service
+1019,19,54371,7,155.41,65,Nothing special
+1020,64,31075,15,63.29,8,Nothing special
+1021,31,74815,27,169.56,256,Delivery was slow
+1022,47,121348,3,178.52,75,It was okay
+1023,35,131666,26,54.26,241,Poor customer service
+1024,30,147401,17,412.28,7,It was okay
+1025,63,62631,25,390.19,227,Poor customer service
+1026,65,34392,13,241.2,49,Decent service
+1027,60,57321,31,206.78,160,Product is acceptable
+1028,28,112465,47,40.25,282,Not worth the money
+1029,25,63202,31,326.49,102,Product is acceptable
+1030,21,143201,43,124.54,58,Fast delivery and great quality
+1031,58,86906,21,27.23,142,Decent service
+1032,25,81879,16,24.29,22,Decent service
+1033,62,92294,45,306.18,191,Very disappointed
+1034,33,50669,32,63.87,317,Delivery was slow
+1035,58,37871,4,190.65,79,Decent service
+1036,24,46492,32,131.68,286,Delivery was slow
+1037,46,126100,13,30.25,194,Delivery was slow
+1038,64,47659,17,451.36,249,Product quality was bad
+1039,53,68628,35,354.58,98,Decent service
+1040,29,101253,23,175.37,240,Delivery was slow
+1041,56,149861,36,96.96,272,Poor customer service
+1042,46,68754,17,279.97,233,Very disappointed
+1043,58,96316,25,372.16,10,Decent service
+1044,41,131714,40,134.62,33,Will definitely buy again
+1045,42,54886,34,347.95,283,Poor customer service
+1046,57,67110,21,216.71,165,It was okay
+1047,24,98576,43,52.01,67,Average experience
+1048,20,56486,7,252.98,51,It was okay
+1049,54,114115,25,335.8,270,Not worth the money
+1050,62,107371,17,43.56,114,Decent service
+1051,63,39289,1,466.5,107,Nothing special
+1052,23,91349,41,49.14,286,Product quality was bad
+1053,41,134103,46,47.98,316,Delivery was slow
+1054,51,35328,47,53.79,156,It was okay
+1055,31,98089,7,68.59,119,Decent service
+1056,42,54832,13,272.57,128,Decent service
+1057,58,53448,36,379.61,213,Very disappointed
+1058,58,105571,23,343.76,360,Product quality was bad
+1059,24,51864,12,283.98,259,Delivery was slow
+1060,60,50732,35,499.25,227,Delivery was slow
+1061,38,102100,21,425.53,212,Product quality was bad
+1062,64,72395,39,135.55,280,Poor customer service
+1063,42,130362,36,464.55,131,Product is acceptable
+1064,46,88654,26,20.09,18,Product is acceptable
+1065,56,32136,34,84.84,155,It was okay
+1066,37,59083,14,430.75,12,Product is acceptable
+1067,53,97013,36,293.92,293,Poor customer service
+1068,24,34946,30,190.71,71,Product is acceptable
+1069,41,146604,38,139.93,132,Product is acceptable
+1070,23,104774,26,293.15,112,It was okay
+1071,64,72558,31,102.99,354,Not worth the money
+1072,24,108018,42,164.19,296,Product quality was bad
+1073,23,132252,4,462.5,172,Product is acceptable
+1074,45,84594,8,437.5,117,Decent service
+1075,18,113084,50,323.45,28,Excellent shopping experience
+1076,51,35397,21,279.17,77,Product is acceptable
+1077,50,121457,15,93.53,345,Product quality was bad
+1078,46,128676,39,296.12,47,Fast delivery and great quality
+1079,45,67982,26,91.05,173,It was okay
+1080,48,104899,48,43.67,205,Delivery was slow
+1081,23,82235,33,228.56,358,Poor customer service
+1082,26,93035,36,115.09,203,Not worth the money
+1083,30,103553,40,498.6,269,Poor customer service
+1084,33,39390,18,392.85,166,Decent service
+1085,23,44749,43,218.52,188,Delivery was slow
+1086,30,72039,23,305.06,13,Product is acceptable
+1087,28,75838,40,414.36,227,Not worth the money
+1088,27,87732,3,463.62,120,Average experience
+1089,61,78997,10,383.71,44,It was okay
+1090,65,37148,16,475.49,76,Product is acceptable
+1091,18,74993,45,406.05,157,Nothing special
+1092,48,32981,22,120.32,276,Poor customer service
+1093,31,101620,34,380.17,281,Product quality was bad
+1094,57,125672,10,353.63,343,Very disappointed
+1095,42,106415,43,272.86,131,Average experience
+1096,21,67226,13,398.81,317,Delivery was slow
+1097,21,90943,42,473.68,35,Highly recommended
+1098,60,65561,43,429.0,338,Delivery was slow
+1099,24,32500,19,436.36,333,Product quality was bad
+1100,32,79899,33,488.77,51,Excellent shopping experience
+1101,49,143609,39,275.15,96,Average experience
+1102,50,90029,36,464.65,12,Very satisfied with the service
+1103,33,99391,20,180.11,202,Poor customer service
+1104,19,75453,44,188.92,321,Delivery was slow
+1105,33,95700,18,409.71,321,Delivery was slow
+1106,42,146706,2,473.19,144,Average experience
+1107,27,74798,26,335.33,45,Nothing special
+1108,51,118866,40,438.9,352,Poor customer service
+1109,44,61504,37,93.32,160,Decent service
+1110,39,88873,35,83.25,335,Poor customer service
+1111,55,100956,44,404.05,71,Product is acceptable
+1112,62,122423,34,456.59,221,Poor customer service
+1113,59,104035,11,172.4,286,Not worth the money
+1114,64,45517,12,172.45,75,It was okay
+1115,38,145360,27,481.37,156,Nothing special
+1116,65,137701,41,467.96,141,Average experience
+1117,30,43994,9,108.68,314,Not worth the money
+1118,35,109377,37,313.93,306,Poor customer service
+1119,32,120095,2,192.45,353,Product quality was bad
+1120,26,95840,39,245.01,333,Delivery was slow
+1121,29,141690,25,255.89,71,Average experience
+1122,30,59658,3,216.12,8,Product is acceptable
+1123,44,59170,48,342.24,104,Average experience
+1124,22,53209,29,436.22,251,Delivery was slow
+1125,47,146337,16,225.23,22,Decent service
+1126,65,138046,25,365.7,202,Not worth the money
+1127,65,104964,39,277.36,329,Very disappointed
+1128,51,44328,29,239.31,22,Average experience
+1129,51,100499,26,492.24,21,Decent service
+1130,42,97649,49,322.71,26,Fast delivery and great quality
+1131,36,87613,26,444.51,147,Nothing special
+1132,28,85372,19,314.3,28,Decent service
+1133,27,90762,42,236.82,257,Very disappointed
+1134,29,132069,38,470.16,357,Not worth the money
+1135,26,81520,27,175.26,13,Average experience
+1136,47,107373,46,449.98,233,Very disappointed
+1137,34,72477,45,331.32,365,Poor customer service
+1138,63,126110,8,63.77,362,Product quality was bad
+1139,58,77571,6,271.43,197,Not worth the money
+1140,57,50958,25,284.17,23,Average experience
+1141,39,104120,43,434.08,84,Average experience
+1142,29,130814,46,44.63,158,Product is acceptable
+1143,64,130745,29,158.61,93,It was okay
+1144,26,56588,1,318.83,130,It was okay
+1145,47,95225,32,280.88,3,Will definitely buy again
+1146,49,61179,14,302.65,244,Product quality was bad
+1147,44,87917,6,308.58,4,Average experience
+1148,53,66452,40,321.75,107,It was okay
+1149,29,49432,4,333.57,19,Average experience
+1150,20,117424,37,422.25,153,Product is acceptable
+1151,23,36426,7,220.14,92,Average experience
+1152,61,67274,40,337.24,359,Not worth the money
+1153,54,133193,36,105.16,234,Not worth the money
+1154,41,34697,6,388.89,166,Product is acceptable
+1155,42,137513,5,384.05,282,Very disappointed
+1156,36,91710,9,78.57,141,Product is acceptable
+1157,51,84232,34,120.73,108,Decent service
+1158,21,44326,37,370.27,323,Not worth the money
+1159,23,93394,47,350.55,362,Delivery was slow
+1160,45,109802,21,144.64,295,Not worth the money
+1161,40,47001,40,290.06,267,Product quality was bad
+1162,49,135903,12,444.16,120,Product is acceptable
+1163,30,30207,8,31.51,321,Very disappointed
+1164,65,141158,14,403.79,213,Product quality was bad
+1165,20,73750,23,289.0,327,Poor customer service
+1166,18,113967,13,351.21,131,It was okay
+1167,37,69358,33,284.0,4,Very satisfied with the service
+1168,61,73684,22,210.1,292,Not worth the money
+1169,19,139057,12,113.13,174,Nothing special
+1170,48,134497,3,329.91,247,Poor customer service
+1171,58,90374,35,450.05,237,Product quality was bad
+1172,65,37342,34,163.68,348,Delivery was slow
+1173,53,100239,2,119.97,351,Delivery was slow
+1174,40,38678,10,154.62,16,Product is acceptable
+1175,42,112118,35,424.35,293,Not worth the money
+1176,42,54560,39,76.09,158,Product is acceptable
+1177,63,34145,18,218.66,255,Poor customer service
+1178,41,89232,20,123.75,155,Average experience
+1179,25,79049,3,393.34,48,Nothing special
+1180,50,33268,31,454.38,79,Average experience
+1181,39,93369,47,439.46,159,Product is acceptable
+1182,27,130857,7,414.63,265,Poor customer service
+1183,31,124970,3,240.5,268,Very disappointed
+1184,18,70760,3,349.79,305,Very disappointed
+1185,39,91194,3,69.49,338,Delivery was slow
+1186,19,105701,49,169.83,108,Product is acceptable
+1187,30,55237,19,152.79,164,Nothing special
+1188,60,45420,18,91.67,141,It was okay
+1189,18,111650,36,266.75,106,Decent service
+1190,40,102006,21,150.11,361,Delivery was slow
+1191,54,62089,11,54.2,314,Delivery was slow
+1192,52,88149,4,82.44,242,Very disappointed
+1193,24,80279,4,61.34,201,Poor customer service
+1194,63,108134,38,322.15,354,Product quality was bad
+1195,57,76612,20,179.52,102,Decent service
+1196,23,129056,49,243.53,68,It was okay
+1197,62,91377,7,238.68,351,Product quality was bad
+1198,48,60368,15,88.99,316,Delivery was slow
+1199,41,81390,12,355.82,341,Delivery was slow
+1200,38,89412,32,34.53,244,Very disappointed
