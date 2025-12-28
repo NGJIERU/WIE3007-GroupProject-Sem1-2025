@@ -8,14 +8,19 @@
 
 ## Training Config
 - Split: 80/20 Stratified (random_state=42)
-- Parameters: [e.g., n_estimators=100, max_depth=None]
+
+Parameters:
+- `n_estimators` = 200
+- `max_depth` = 10 
+- `max_features` = 'sqrt' 
+- `random_state` = 42 
 
 ## Evaluation
 | Metric | Score |
 | :--- | :--- |
-| Accuracy | |
-| F1-Score | |
-| ROC-AUC | |
+| Accuracy |0.9583|
+| F1-Score |0.9425|
+| ROC-AUC |0.9674|
 
 ## Interpretation
 [Feature Importance comparison vs Decision Tree]
