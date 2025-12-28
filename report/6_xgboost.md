@@ -23,4 +23,6 @@
 | ROC-AUC |0.962225|
 
 ## Interpretation
-[SHAP values or Gain-based importance]
+- Feature importance analyzed using **gain-based importance from XGBoost**  
+- Top features contributed significantly to predicting churn  
+- Model distributes predictive power across multiple behavioural and demographic features, reducing over-reliance on any single variable  
