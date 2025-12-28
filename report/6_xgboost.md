@@ -18,9 +18,9 @@
 ## Evaluation
 | Metric | Score |
 | :--- | :--- |
-| Accuracy | |
-| F1-Score | |
-| ROC-AUC | |
+| Accuracy |0.945833|
+| F1-Score |0.926554|
+| ROC-AUC |0.962225|
 
 ## Interpretation
 [SHAP values or Gain-based importance]
