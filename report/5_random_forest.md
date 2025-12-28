@@ -23,4 +23,12 @@ Parameters:
 | ROC-AUC |0.9674|
 
 ## Interpretation
-[Feature Importance comparison vs Decision Tree]
+The Random Forest model achieved high but realistic performance, confirming it learned genuine non-linear patterns rather than exploiting data leakage.
+
+Feature Importance:
+Top features driving churn predictions include:
+- `risk_score` – strongest predictor, aligns with expected risk-driven churn.
+- `sentiment_score` – captures customer dissatisfaction from reviews.
+- `spend_ratio` – indicates economic behavior impact on churn.
+
+Compared to the baseline Decision Tree, Random Forest distributes predictive power across multiple features, improving stability and reducing over-reliance on any single feature. 
