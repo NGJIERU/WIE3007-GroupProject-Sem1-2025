@@ -1,18 +1,28 @@
 # Model: XGBoost (Person D)
 
 ## Model Choice & Justification
-[Why XGBoost? e.g., Gradient boosting, state-of-the-art performance, handles missing values]
+- Gradient boosting algorithm for ensemble learning  
+- State-of-the-art performance on tabular data  
+- Handles missing values automatically  
+- Captures non-linear feature interactions effectively 
 
 ## Training Config
-- Split: 80/20 Stratified (random_state=42)
-- Parameters: [e.g., learning_rate=0.1, max_depth=3]
+- **Train/Test Split:** 80/20 Stratified (random_state=42)  
+- **Parameters:**  
+  - `n_estimators=300`  
+  - `max_depth=4`  
+  - `learning_rate=0.05`  
+  - `subsample=0.8`  
+  - `colsample_bytree=0.8`  
 
 ## Evaluation
 | Metric | Score |
 | :--- | :--- |
-| Accuracy | |
-| F1-Score | |
-| ROC-AUC | |
+| Accuracy |0.945833|
+| F1-Score |0.926554|
+| ROC-AUC |0.962225|
 
 ## Interpretation
-[SHAP values or Gain-based importance]
+- Feature importance analyzed using **gain-based importance from XGBoost**  
+- Top features contributed significantly to predicting churn  
+- Model distributes predictive power across multiple behavioural and demographic features, reducing over-reliance on any single variable  
