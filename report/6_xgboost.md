@@ -23,6 +23,4 @@
 | ROC-AUC |0.962225|
 
 ## Interpretation
-- Feature importance analyzed using **gain-based importance from XGBoost**  
-- Top features contributed significantly to predicting churn  
-- Model distributes predictive power across multiple behavioural and demographic features, reducing over-reliance on any single variable  
+XGBoost performed well, close to Random Forest. Top features are similar: `risk_score`, `sentiment_score`, and purchase behavior features.  

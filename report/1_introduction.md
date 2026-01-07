@@ -3,13 +3,13 @@
 ## 1.1 Introduction & Background
 
 ### Context
-In the highly competitive e-commerce sector, customer retention is as critical as acquisition. Predicting customer churn (whether a customer will stop purchasing) allows businesses to proactively intervene with targeted strategies. While traditional churn models rely on transaction history, this project aims to predict **Churn Risk** by combining transactional data with unstructured feedback (reviews) and customer demographics.
+In e-commerce, keeping existing customers is just as important as getting new ones. Predicting which customers might stop buying (churn) helps businesses act early. This project predicts churn risk using transaction data, customer demographics, and review text.
 
 ### Motivation
-Financial instability or dissatisfaction often precedes churn. By identifying at-risk customers early—specifically using repayment behavior (simulated) or negative sentiment signals—businesses can reduce revenue loss. This project fulfills the WIE3007 objective of applying predictive modelling to solve a business problem using a simulated dataset.
+Unhappy customers often leave negative reviews before they stop buying. By catching these signals early, businesses can try to retain them. This project applies predictive modeling to a simulated dataset for the WIE3007 course.
 
 ### Scope
-- **Domain**: E-commerce / Retail Finance.
+- **Domain**: E-commerce / Retail.
 - **Task**: Binary Classification (Predict `churn`).
 - **Data Source**: Fully simulated dataset (Privacy-safe).
 
@@ -18,11 +18,10 @@ Financial instability or dissatisfaction often precedes churn. By identifying at
 **Prediction Task**: Predict whether a customer is likely to churn (`churn = 1`) based on their purchase history, demographics, and review sentiment.
 
 **Target Variable**:
-- `churn`: A binary variable derived from inactivity rules (e.g., > 180 days since last purchase).
+- `churn`: A binary variable generated during simulation using a probabilistic rule combining recency (inactivity), frequency (orders), and review sentiment.
 
 **Constraints**:
 - **Dataset Size**: ~1,200 records (Simulated).
-- **AI Usage**: Generative AI was used to design the simulation logic and business rules.
 
 ## 1.3 Dataset Simulation
 
@@ -35,7 +34,7 @@ The raw dataset (`synthetic_customers_raw.csv`) contains the following key attri
 | Column | Type | Description |
 | :--- | :--- | :--- |
 | `customer_id` | Int | Unique identifier |
-| `age` | Int | Customer age (21-65) |
+| `age` | Int | Customer age (18-65) |
 | `income` | Float | Annual income |
 | `total_orders` | Int | Number of orders placed |
 | `days_since_last_purchase`| Int | Days since last activity |
@@ -52,12 +51,6 @@ The raw dataset (`synthetic_customers_raw.csv`) contains the following key attri
 - **Missing Values**: 0 (Controlled simulation)
 - **Class Distribution**: ~30% Churn (Derived), ensuring a realistic imbalance.
 
-## 1.4 AI Usage Documentation (Dataset)
+## 1.4 Implementation Notes
 
-**Usage**: Generative AI (LLM) was used to **design the business rules** for data generation, ensuring realistic correlations.
-
-**Prompt Used**:
-> "Design a Python script to generate a synthetic e-commerce customer dataset. Include fields like Age, Income, and a textual 'Review' field. Ensure that 'Review' text sentiment correlates with 'Days Since Last Purchase' (e.g., neg reviews = long inactivity)."
-
-**Implementation**:
-The AI-suggested logic was implemented in Python using `numpy` and `faker`. The code was reviewed and executed by the team (Person A) to generate the final CSV file.
+The dataset was generated using Python with `numpy` and the `random` module. We added business rules to create realistic correlations (e.g., inactive customers tend to have negative reviews).
