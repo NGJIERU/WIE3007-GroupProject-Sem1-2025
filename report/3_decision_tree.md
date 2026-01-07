@@ -28,7 +28,7 @@ The baseline model was evaluated on the unseen test set (20% of data).
 | **F1-Score** | ~XX% | Balances Precision and Recall (critical for churn). |
 | **ROC-AUC** | ~0.XX | Measures ability to rank churners vs non-churners. |
 
-*(Note: Exact values are logged in the Evaluation Notebook `05_evaluation.ipynb`)*
+*(Note: Exact values are logged in the Evaluation Notebook `09_evaluation_hub.ipynb`)*
 
 ## 3.4 Feature Importance & Interpretation
 
