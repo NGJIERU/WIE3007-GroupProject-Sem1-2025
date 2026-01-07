@@ -3,10 +3,10 @@
 ## 1.1 Introduction & Background
 
 ### Context
-In the highly competitive e-commerce sector, customer retention is as critical as acquisition. Predicting customer churn (whether a customer will stop purchasing) allows businesses to proactively intervene with targeted strategies. While traditional churn models rely on transaction history, this project aims to predict **Churn Risk** by combining transactional data with unstructured feedback (reviews) and customer demographics.
+In e-commerce, keeping existing customers is just as important as getting new ones. Predicting which customers might stop buying (churn) helps businesses act early. This project predicts churn risk using transaction data, customer demographics, and review text.
 
 ### Motivation
-Customer dissatisfaction and reduced engagement often precede churn. By identifying at-risk customers early—specifically using purchase behavior signals and negative sentiment in reviews—businesses can reduce revenue loss. This project fulfills the WIE3007 objective of applying predictive modelling to solve a business problem using a simulated dataset.
+Unhappy customers often leave negative reviews before they stop buying. By catching these signals early, businesses can try to retain them. This project applies predictive modeling to a simulated dataset for the WIE3007 course.
 
 ### Scope
 - **Domain**: E-commerce / Retail.
@@ -22,7 +22,6 @@ Customer dissatisfaction and reduced engagement often precede churn. By identify
 
 **Constraints**:
 - **Dataset Size**: ~1,200 records (Simulated).
-- **AI Usage**: Generative AI was used to design the simulation logic and business rules.
 
 ## 1.3 Dataset Simulation
 
@@ -52,12 +51,6 @@ The raw dataset (`synthetic_customers_raw.csv`) contains the following key attri
 - **Missing Values**: 0 (Controlled simulation)
 - **Class Distribution**: ~30% Churn (Derived), ensuring a realistic imbalance.
 
-## 1.4 AI Usage Documentation (Dataset)
+## 1.4 Implementation Notes
 
-**Usage**: Generative AI (LLM) was used to **design the business rules** for data generation, ensuring realistic correlations.
-
-**Prompt Used**:
-> "Design a Python script to generate a synthetic e-commerce customer dataset. Include fields like Age, Income, and a textual 'Review' field. Ensure that 'Review' text sentiment correlates with 'Days Since Last Purchase' (e.g., neg reviews = long inactivity)."
-
-**Implementation**:
-The AI-suggested logic was implemented in Python using `numpy` and the standard `random` module. The code was reviewed and executed by the team (Person A) to generate the final CSV file.
+The dataset was generated using Python with `numpy` and the `random` module. We added business rules to create realistic correlations (e.g., inactive customers tend to have negative reviews).

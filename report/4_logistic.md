@@ -21,6 +21,6 @@ Logistic Regression was selected as a strong and interpretable linear baseline.
 | ROC-AUC | 0.9638 |
 
 ## Interpretation
-The model achieved strong performance, indicating that a linear decision boundary is sufficient to capture much of the churn signal in the engineered feature space.
+The model works well - a linear model can capture most of the churn signal in our features.
 
-Coefficient inspection shows that sentiment-related features (e.g., `risk_score` / `sentiment_score`) contribute strongly to churn prediction, while purchase behavior features (e.g., `estimated_spend`, `spend_ratio`, `total_orders`) provide additional signal.
+Looking at the coefficients, sentiment features (`risk_score`, `sentiment_score`) are strong predictors. Purchase behavior (`estimated_spend`, `spend_ratio`) also helps.

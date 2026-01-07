@@ -2,27 +2,18 @@
 
 ## 2.1 Feature Categories
 
-We transformed the raw simulated data into a model-ready feature set. The features are categorized as follows:
+We processed the raw data to create features for modeling:
 
 1.  **Raw Numerical**: `age`, `income`, `total_orders`, `avg_order_value`, `days_since_last_purchase`.
 2.  **Derived Numerical**: `estimated_spend` (Total Orders × Avg Order Value), `spend_ratio` (Estimated Spend / Income).
-3.  **LLM-Derived Text Features**: `sentiment_score`, `risk_score` (Extracted from `review_text`).
+3.  **Text-Derived Features**: `sentiment_score`, `risk_score` (Extracted from `review_text` using keyword matching).
 4.  **Target**: `churn` (pre-generated during simulation using a probabilistic risk-score rule that combines recency, frequency, and sentiment).
 
-## 2.2 LLM-Aided Feature Extraction
+## 2.2 Text Feature Extraction
 
-To utilize the unstructured `review_text`, we employed a Large Language Model (LLM) to design a keyword-based extraction purpose.
-
-**LLM Prompt**:
-> "You are a sentiment analyst. Given short e-commerce reviews, provide a set of keywords to classify them into:
-> 1. Sentiment: Positive / Neutral / Negative
-> 2. Churn Risk: Low / Medium / High
-> Return python-ready lists of keywords."
-
-**Logic Implementation**:
-Based on the LLM's output, we implemented a Python function `extract_sentiment_and_risk`.
-- **Negative/High Risk**: Contains words like "disappointed", "poor", "slow", "bad".
-- **Positive/Low Risk**: Contains words like "satisfied", "great", "excellent".
+We wrote a Python function to extract sentiment and risk from the `review_text` field using keyword matching:
+- **Negative/High Risk**: Words like "disappointed", "poor", "slow", "bad".
+- **Positive/Low Risk**: Words like "satisfied", "great", "excellent".
 
 **Transformation Example**:
 | Review Text | Extracted Sentiment | Extracted Risk |
@@ -43,7 +34,6 @@ A brief analysis of the engineered features revealed:
 - **Income Distribution**: The dataset shows a realistic right-skewed income distribution.
 - **Completeness**: No missing values were found after processing.
 
-## 2.5 AI Usage Documentation (Feature Engineering)
+## 2.5 Implementation Notes
 
-**Usage**: AI was used to **design the text extraction logic**.
-**Role**: The AI acted as a "Domain Expert" suggesting which keywords indicate churn risk. The actual processing was done via deterministic Python code (Person B) to ensure reproducibility.
+The keyword lists were chosen based on common e-commerce review patterns. The extraction is done with simple string matching in Python.

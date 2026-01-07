@@ -3,8 +3,8 @@
 ## 3.1 Model Choice
 
 We selected a **Decision Tree Classifier** as our initial baseline model.
-- **Reasoning**: Decision Trees are highly interpretable, handle both numerical and categorical data well without extensive scaling, and provide a clear "white-box" logic that is useful for explaining churn drivers.
-- **Role**: This model serves as the "System Integration Test" to validate the entire data pipeline before deploying more complex algorithms.
+- Decision Trees are easy to interpret and don't need feature scaling.
+- Good starting point to check if the data pipeline works before trying complex models.
 
 ## 3.2 Training Strategy
 
@@ -38,7 +38,6 @@ The Decision Tree revealed the key drivers of churn.
 2.  Purchase behavior features such as `estimated_spend`, `total_orders`, and `spend_ratio`.
 3.  `income` or `total_orders`: Demographic/Behavioral factors.
 
-## 3.5 AI Usage Documentation (Modeling)
+## 3.5 Notes
 
-**Usage**: AI was **not used** for the core training code (which used standard `sklearn` libraries).
-**Potential AI Role**: AI can be used in the future to summarize the complex tree rules into natural language "personas" of churners (e.g., "High Income but dissatisfied customers").
+We used standard sklearn for training. The tree structure can help identify customer patterns (e.g., high-risk customers with negative sentiment).

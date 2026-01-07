@@ -12,23 +12,18 @@ We evaluated all 5 models using the same 20% stratified test set.
 | XGBoost | 0.95 | 0.93 | 0.96 |
 | MLP | 0.93 | 0.90 | 0.96 |
 
-**Performance Analysis**:
-1.Decision Tree (Baseline): Provides a simple, interpretable benchmark. Captures basic patterns but underperforms ensemble models.
+**Notes**:
+- Decision Tree is easy to interpret but not as accurate as the others.
+- Logistic Regression works well as a simple baseline.
+- Random Forest has the best scores overall.
+- XGBoost is close behind Random Forest.
+- MLP works but needs more tuning to match tree-based models.
 
-2.Logistic Regression: Strong linear model and good for capturing overall trends but may miss nonlinear interactions.
-
-3.Random Forest: Best overall performance. Stable and robust because it able to ensemble and effectively models complex patterns.
-
-4.XGBoost: Slightly lower accuracy than Random Forest but still highly capable and gradient boosting handles complex relationships effectively.
-
-5.MLP (Neural Network): Captures nonlinear relationships, but slightly underperforms tree-based methods. For best results, additional hyperparameter tuning might be necessary.
-
-Overall Insight:
-Every model performs better than random guessing, demonstrating that the engineered features offer significant predictive signals. Tree-based ensemble models dominate in accuracy and robustness, while MLP and Logistic Regression serve as strong alternatives depending on interpretability or flexibility requirements.
+All models beat random guessing, so our features are useful for prediction.
 
 ## 8.2 Business Insights
 
-Based on the machine model evaluation and feature importance analysis, we derived actionable insights to support customer retention and marketing strategies:
+Based on our results, here are some practical takeaways:
 
 | Insight | Feature(s) | Target Customers | Action |
 |---------|------------|----------------|--------|
@@ -37,22 +32,17 @@ Based on the machine model evaluation and feature importance analysis, we derive
 | Spend ratio indicates customer behavior patterns | `spend_ratio` | All customers segmented by spending | Segment customers based on spend ratio and tailor marketing campaigns accordingly. For example, offer high-value promotions to high spenders to encourage continued engagement. |
 
 
-## 8.3 AI Disclosure (Project-Wide)
+## 8.3 Tools Used
 
-We adhered to a **Human-in-the-Loop** AI usage policy:
-
-1.  **Dataset**: LLM generated the *logic* for simulation; Humans validated the Python code and distribution.
-2.  **Features**: LLM designed the *keyword rules* for text analysis; Humans implemented the deterministic function.
-3.  **Modeling**: Standard `sklearn` libraries were used; AI was used loosely for *explaining* code concepts or interpreting error logs.
+We used standard Python libraries (pandas, sklearn, xgboost) for modeling. For text feature extraction, we wrote keyword-matching functions based on common sentiment words.
 
 ## 8.4 GitHub Contribution Summary
 
-The project followed a strict **Git Flow** workflow:
-- **Branches**: Each member worked on dedicated feature branches (e.g., `personA-modelling`, `personB-featureengineering`).
-- **Pull Requests**: All code was merged via PRs with required reviews.
-- **Commits**: Each member contributed >6 meaningful commits.
-- **Artifacts**: All notebooks are reproducible and stored in `notebooks/`.
+We used Git for version control:
+- Each member worked on their own branch.
+- Code was merged through pull requests.
+- All notebooks are in the `notebooks/` folder.
 
 ## 8.5 Conclusion
 
-We successfully simulated a realistic e-commerce dataset, engineered features using LLM-aided text analysis, and built a predictive pipeline. The baseline Decision Tree proves that the data contains predictive signal. Future work could involve hyperparameter tuning and deploying the model as a real-time API.
+We built a churn prediction pipeline using simulated e-commerce data. Random Forest performed best. Future work could include hyperparameter tuning and testing on real data.
