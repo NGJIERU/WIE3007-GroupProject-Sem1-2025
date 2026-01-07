@@ -6,10 +6,10 @@
 In the highly competitive e-commerce sector, customer retention is as critical as acquisition. Predicting customer churn (whether a customer will stop purchasing) allows businesses to proactively intervene with targeted strategies. While traditional churn models rely on transaction history, this project aims to predict **Churn Risk** by combining transactional data with unstructured feedback (reviews) and customer demographics.
 
 ### Motivation
-Financial instability or dissatisfaction often precedes churn. By identifying at-risk customers early—specifically using repayment behavior (simulated) or negative sentiment signals—businesses can reduce revenue loss. This project fulfills the WIE3007 objective of applying predictive modelling to solve a business problem using a simulated dataset.
+Customer dissatisfaction and reduced engagement often precede churn. By identifying at-risk customers early—specifically using purchase behavior signals and negative sentiment in reviews—businesses can reduce revenue loss. This project fulfills the WIE3007 objective of applying predictive modelling to solve a business problem using a simulated dataset.
 
 ### Scope
-- **Domain**: E-commerce / Retail Finance.
+- **Domain**: E-commerce / Retail.
 - **Task**: Binary Classification (Predict `churn`).
 - **Data Source**: Fully simulated dataset (Privacy-safe).
 
@@ -18,7 +18,7 @@ Financial instability or dissatisfaction often precedes churn. By identifying at
 **Prediction Task**: Predict whether a customer is likely to churn (`churn = 1`) based on their purchase history, demographics, and review sentiment.
 
 **Target Variable**:
-- `churn`: A binary variable derived from inactivity rules (e.g., > 180 days since last purchase).
+- `churn`: A binary variable generated during simulation using a probabilistic rule combining recency (inactivity), frequency (orders), and review sentiment.
 
 **Constraints**:
 - **Dataset Size**: ~1,200 records (Simulated).
@@ -35,7 +35,7 @@ The raw dataset (`synthetic_customers_raw.csv`) contains the following key attri
 | Column | Type | Description |
 | :--- | :--- | :--- |
 | `customer_id` | Int | Unique identifier |
-| `age` | Int | Customer age (21-65) |
+| `age` | Int | Customer age (18-65) |
 | `income` | Float | Annual income |
 | `total_orders` | Int | Number of orders placed |
 | `days_since_last_purchase`| Int | Days since last activity |
@@ -60,4 +60,4 @@ The raw dataset (`synthetic_customers_raw.csv`) contains the following key attri
 > "Design a Python script to generate a synthetic e-commerce customer dataset. Include fields like Age, Income, and a textual 'Review' field. Ensure that 'Review' text sentiment correlates with 'Days Since Last Purchase' (e.g., neg reviews = long inactivity)."
 
 **Implementation**:
-The AI-suggested logic was implemented in Python using `numpy` and `faker`. The code was reviewed and executed by the team (Person A) to generate the final CSV file.
+The AI-suggested logic was implemented in Python using `numpy` and the standard `random` module. The code was reviewed and executed by the team (Person A) to generate the final CSV file.

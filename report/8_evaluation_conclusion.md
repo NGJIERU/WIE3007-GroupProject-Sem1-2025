@@ -9,7 +9,7 @@ We evaluated all 5 models using the same 20% stratified test set.
 | **Decision Tree** | 0.90 | 0.86 | 0.89 |
 | Logistic Regression | 0.94 | 0.92 | 0.97 |
 | Random Forest | 0.96 | 0.94 | 0.97 |
-| XGBoost | 0.95 | 0.93 |0.96 |
+| XGBoost | 0.95 | 0.93 | 0.96 |
 | MLP | 0.93 | 0.90 | 0.96 |
 
 **Performance Analysis**:

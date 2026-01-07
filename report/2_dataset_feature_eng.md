@@ -5,9 +5,9 @@
 We transformed the raw simulated data into a model-ready feature set. The features are categorized as follows:
 
 1.  **Raw Numerical**: `age`, `income`, `total_orders`, `avg_order_value`, `days_since_last_purchase`.
-2.  **Derived Numerical**: `income_per_order` (Income / Total Orders).
+2.  **Derived Numerical**: `estimated_spend` (Total Orders × Avg Order Value), `spend_ratio` (Estimated Spend / Income).
 3.  **LLM-Derived Text Features**: `sentiment_score`, `risk_score` (Extracted from `review_text`).
-4.  **Target**: `churn` (1 if `days_since_last_purchase` > 180, else 0).
+4.  **Target**: `churn` (pre-generated during simulation using a probabilistic risk-score rule that combines recency, frequency, and sentiment).
 
 ## 2.2 LLM-Aided Feature Extraction
 

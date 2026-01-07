@@ -22,11 +22,11 @@ We selected a **Decision Tree Classifier** as our initial baseline model.
 
 The baseline model was evaluated on the unseen test set (20% of data).
 
-| Metric | Score (Approx) | Interpretation |
+| Metric | Score | Interpretation |
 | :--- | :--- | :--- |
-| **Accuracy** | ~XX% | Describes overall correctness. |
-| **F1-Score** | ~XX% | Balances Precision and Recall (critical for churn). |
-| **ROC-AUC** | ~0.XX | Measures ability to rank churners vs non-churners. |
+| **Accuracy** | 0.9042 | Describes overall correctness. |
+| **F1-Score** | 0.8623 | Balances Precision and Recall (critical for churn). |
+| **ROC-AUC** | 0.8933 | Measures ability to rank churners vs non-churners. |
 
 *(Note: Exact values are logged in the Evaluation Notebook `09_evaluation_hub.ipynb`)*
 
@@ -34,8 +34,8 @@ The baseline model was evaluated on the unseen test set (20% of data).
 
 The Decision Tree revealed the key drivers of churn.
 **Top features identified:**
-1.  `days_since_last_purchase`: (Expected, as it's part of the churn definition).
-2.  `risk_score` / `sentiment_score`: Confirming that negative reviews are strong predictors.
+1.  `risk_score` / `sentiment_score`: Confirming that negative reviews are strong predictors.
+2.  Purchase behavior features such as `estimated_spend`, `total_orders`, and `spend_ratio`.
 3.  `income` or `total_orders`: Demographic/Behavioral factors.
 
 ## 3.5 AI Usage Documentation (Modeling)
