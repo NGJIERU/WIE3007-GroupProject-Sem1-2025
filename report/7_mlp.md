@@ -25,10 +25,12 @@ The MLP captures non-linear patterns in the dataset, making it more flexible tha
 Feature Importance:
 Top features driving churn predictions include:
 
-sentiment_score – strongest predictor, reflecting customer satisfaction or dissatisfaction.
+Risk Score – the most influential feature, identifying high-risk or churn-prone customers.
 
-risk_score – highlights high-risk or churn-prone customers.
+Sentiment Score – reflects customer satisfaction or dissatisfaction, strongly impacting churn predictions.
 
-total_orders – shows how purchase frequency impacts churn likelihood.
+Estimated Spend – indicates the potential monetary value and engagement of a customer.
+
+Total Orders – shows how purchase frequency affects the likelihood of churn.
 
 In contrast to more straightforward linear models such as Logistic Regression or the baseline Decision Tree, the MLP captures non-linear relationships and distributes predictive insights across multiple features, providing a more comprehensive understanding of consumer behavior.
