@@ -1,18 +1,33 @@
 # Model: Random Forest (Person C)
 
 ## Model Choice & Justification
-[Why Random Forest? e.g., Ensemble method, handles non-linearity, robustness]
+- Handles non-linear relationships in tabular data effectively.
+- Reduces overfitting by averaging multiple decision trees.
+- Is robust to noisy data, such as the probabilistic churn and "Karen" customers added to the dataset.
+- Improves generalization over a single Decision Tree baseline.
 
 ## Training Config
 - Split: 80/20 Stratified (random_state=42)
-- Parameters: [e.g., n_estimators=100, max_depth=None]
+
+Parameters:
+- `n_estimators` = 200
+- `max_depth` = 10 
+- `max_features` = 'sqrt' 
+- `random_state` = 42 
 
 ## Evaluation
 | Metric | Score |
 | :--- | :--- |
-| Accuracy | |
-| F1-Score | |
-| ROC-AUC | |
+| Accuracy |0.9583|
+| F1-Score |0.9425|
+| ROC-AUC |0.9674|
 
 ## Interpretation
-[Feature Importance comparison vs Decision Tree]
+Random Forest got the best results. The ensemble approach helps avoid overfitting.
+
+Top features:
+- `risk_score` - strongest predictor
+- `sentiment_score` - captures negative reviews
+- `spend_ratio` - spending behavior
+
+Unlike single Decision Tree, Random Forest spreads importance across features, making it more stable. 
