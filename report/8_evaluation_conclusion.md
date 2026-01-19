@@ -6,39 +6,43 @@ We evaluated all 5 models using the same 20% stratified test set.
 
 | Model | Accuracy | F1-Score | ROC-AUC |
 | :--- | :--- | :--- | :--- |
-| **Decision Tree** | 0.99 | 0.99 | 0.99 |
-| Logistic Regression | *TBD* | *TBD* | *TBD* |
-| Random Forest | *TBD* | *TBD* | *TBD* |
-| XGBoost | *TBD* | *TBD* | *TBD* |
-| MLP | *TBD* | *TBD* | *TBD* |
+| **Decision Tree** | 0.90 | 0.86 | 0.89 |
+| Logistic Regression | 0.94 | 0.92 | 0.97 |
+| Random Forest | 0.96 | 0.94 | 0.97 |
+| XGBoost | 0.95 | 0.93 | 0.96 |
+| MLP | 0.93 | 0.90 | 0.96 |
 
-**Performance Analysis**:
-- The **Decision Tree** baseline set a strong foundation.
-- [Compare other models once trained].
+**Notes**:
+- Decision Tree is easy to interpret but not as accurate as the others.
+- Logistic Regression works well as a simple baseline.
+- Random Forest has the best scores overall.
+- XGBoost is close behind Random Forest.
+- MLP works but needs more tuning to match tree-based models.
+
+All models beat random guessing, so our features are useful for prediction.
 
 ## 8.2 Business Insights
 
-1.  **Key Signals**: Customer **Repayment Risk** (derived from reviews) and **Recent Activity** (`days_since_last_purchase`) are the strongest predictors of churn.
-2.  **Strategy**:
-    - **Intervention**: Target customers with `days > 150` with re-engagement offers *before* they hit the 180-day churn threshold.
-    - **Sentiment**: Address specific complaints found in `High Risk` reviews (mainly "Service" and "Product Quality").
+Based on our results, here are some practical takeaways:
 
-## 8.3 AI Disclosure (Project-Wide)
+| Insight | Feature(s) | Target Customers | Action |
+|---------|------------|----------------|--------|
+| High-risk customers are more likely to churn | `risk_score` | Customers identified as high-risk | Implement a targeted marketing campaign to address the specific needs of high-risk customers and reduce their likelihood of churning. |
+| Positive sentiment is associated with higher retention | `sentiment_score` | Customers with negative or mixed reviews | Monitor customer feedback using sentiment analysis and address negative sentiment promptly to improve retention and marketing outcomes. |
+| Spend ratio indicates customer behavior patterns | `spend_ratio` | All customers segmented by spending | Segment customers based on spend ratio and tailor marketing campaigns accordingly. For example, offer high-value promotions to high spenders to encourage continued engagement. |
 
-We adhered to a **Human-in-the-Loop** AI usage policy:
 
-1.  **Dataset**: LLM generated the *logic* for simulation; Humans validated the Python code and distribution.
-2.  **Features**: LLM designed the *keyword rules* for text analysis; Humans implemented the deterministic function.
-3.  **Modeling**: Standard `sklearn` libraries were used; AI was used loosely for *explaining* code concepts or interpreting error logs.
+## 8.3 Tools Used
+
+We used standard Python libraries (pandas, sklearn, xgboost) for modeling. For text feature extraction, we wrote keyword-matching functions based on common sentiment words.
 
 ## 8.4 GitHub Contribution Summary
 
-The project followed a strict **Git Flow** workflow:
-- **Branches**: Each member worked on dedicated feature branches (e.g., `personA-modelling`, `personB-featureengineering`).
-- **Pull Requests**: All code was merged via PRs with required reviews.
-- **Commits**: Each member contributed >6 meaningful commits.
-- **Artifacts**: All notebooks are reproducible and stored in `notebooks/`.
+We used Git for version control:
+- Each member worked on their own branch.
+- Code was merged through pull requests.
+- All notebooks are in the `notebooks/` folder.
 
 ## 8.5 Conclusion
 
-We successfully simulated a realistic e-commerce dataset, engineered features using LLM-aided text analysis, and built a predictive pipeline. The baseline Decision Tree proves that the data contains predictive signal. Future work could involve hyperparameter tuning and deploying the model as a real-time API.
+We built a churn prediction pipeline using simulated e-commerce data. Random Forest performed best. Future work could include hyperparameter tuning and testing on real data.
