@@ -13,15 +13,16 @@ We evaluated all 5 models using the same 20% stratified test set.
 | MLP | 0.93 | 0.90 | 0.96 |
 
 **Performance Analysis**:
-1.Decision Tree (Baseline): Provides a simple, interpretable benchmark. Captures basic patterns but underperforms ensemble models.
+1. **Decision Tree (Baseline):** Provides a simple, interpretable benchmark. Captures basic patterns but underperforms ensemble models.
 
-2.Logistic Regression: Strong linear model and good for capturing overall trends but may miss nonlinear interactions.
+2. **Logistic Regression:** Strong linear model and good for capturing overall trends but may miss nonlinear interactions.
 
-3.Random Forest: Best overall performance. Stable and robust because it able to ensemble and effectively models complex patterns.
+3. **Random Forest:** Best overall performance. Stable and robust because it ensembles multiple trees and effectively models complex patterns.
 
-4.XGBoost: Slightly lower accuracy than Random Forest but still highly capable and gradient boosting handles complex relationships effectively.
+4. **XGBoost:** Slightly lower accuracy than Random Forest but still highly capable. Gradient boosting effectively captures complex relationships.
 
-5.MLP (Neural Network): Captures nonlinear relationships, but slightly underperforms tree-based methods. For best results, additional hyperparameter tuning might be necessary.
+5. **MLP (Neural Network):** Captures nonlinear relationships but slightly underperforms tree-based methods. Additional hyperparameter tuning may improve performance.
+
 
 Overall Insight:
 Every model performs better than random guessing, demonstrating that the engineered features offer significant predictive signals. Tree-based ensemble models dominate in accuracy and robustness, while MLP and Logistic Regression serve as strong alternatives depending on interpretability or flexibility requirements.
