@@ -1,7 +1,7 @@
 # Model: MLP / Neural Network (Person E)
 
 ## Model Choice & Justification
-The MLP (Multi-Layer Perceptron) was chosen because it can capture complex non-linear interactions among customer features that linear models (like Logistic Regression) might overlook. This "Deep Learning" component complements the tree-based models in the project, offers a flexible method to modeling complex relationships in the retail dataset.
+MLP (neural network) can capture non-linear patterns that simpler models might miss. It's a good comparison to tree-based methods.
 
 ## Training Config
 -Data Split: 80/20 Stratified (random_state=42)
@@ -25,12 +25,10 @@ The MLP captures non-linear patterns in the dataset, making it more flexible tha
 Feature Importance:
 Top features driving churn predictions include:
 
-Risk Score – the most influential feature, identifying high-risk or churn-prone customers.
+sentiment_score – strongest predictor, reflecting customer satisfaction or dissatisfaction.
 
-Sentiment Score – reflects customer satisfaction or dissatisfaction, strongly impacting churn predictions.
+risk_score – highlights high-risk or churn-prone customers.
 
-Estimated Spend – indicates the potential monetary value and engagement of a customer.
-
-Total Orders – shows how purchase frequency affects the likelihood of churn.
+total_orders – shows how purchase frequency impacts churn likelihood.
 
 In contrast to more straightforward linear models such as Logistic Regression or the baseline Decision Tree, the MLP captures non-linear relationships and distributes predictive insights across multiple features, providing a more comprehensive understanding of consumer behavior.
