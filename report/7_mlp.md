@@ -20,6 +20,15 @@ MLP (neural network) can capture non-linear patterns that simpler models might m
 | ROC-AUC |0.9618 |
 
 ## Interpretation
-MLP works but doesn't beat tree-based models on this dataset. Top features are similar to other models: `sentiment_score`, `risk_score`, `total_orders`.
+The MLP captures non-linear patterns in the dataset, making it more flexible than linear models. While it slightly underperforms compared to tree-based ensembles (Random Forest, XGBoost), it offers insightful information about feature interactions. Since the model is a "black-box," methods like permutation importance are necessary for interpretation.
 
-Neural networks need more tuning to match tree performance here.
+Feature Importance:
+Top features driving churn predictions include:
+
+sentiment_score – strongest predictor, reflecting customer satisfaction or dissatisfaction.
+
+risk_score – highlights high-risk or churn-prone customers.
+
+total_orders – shows how purchase frequency impacts churn likelihood.
+
+In contrast to more straightforward linear models such as Logistic Regression or the baseline Decision Tree, the MLP captures non-linear relationships and distributes predictive insights across multiple features, providing a more comprehensive understanding of consumer behavior.
